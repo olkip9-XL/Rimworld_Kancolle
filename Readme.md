@@ -3,7 +3,7 @@
 角色代码：
 资源从左到右依次为：燃料、白银、钢铁、玻璃钢
 
-Resources from left to right: Fuel, Silver, Steel, Platsteel
+Resources from left to right: Fuel, Silver, Steel, Plasteel
 
 | Name         | 名字     |  Material                |
 | ------------ | ---------- | -------------------- |
