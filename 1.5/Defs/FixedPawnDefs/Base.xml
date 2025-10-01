@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--=====================Base=================================-->
+  <FixedPawnGenerate.FixedPawnDef Name="KancolleFixedPawnBase" Abstract="true">
+    <generateWeight>1</generateWeight>
+    <!--generateRate set 0 to avoid natural generate -->
+    <generateRate>0</generateRate>
+    <isUnique>true</isUnique>
+    <!--<faction>PlayerColony</faction>-->
+    <factionType>Player</factionType>
+    <race>Human</race>
+    <pawnKind>KC_Colonist</pawnKind>
+    <xenotype MayRequire="Ludeon.RimWorld.Biotech">KC_ShipGirl</xenotype>
+    <age>16</age>
+    <chronologicalAge>200</chronologicalAge>
+    <gender>Female</gender>
+    <faceTattoo MayRequire="Ludeon.RimWorld.Ideology">NoTattoo_Face</faceTattoo>
+    <bodyTattoo MayRequire="Ludeon.RimWorld.Ideology">NoTattoo_Body</bodyTattoo>
+    <hairColor>(255,255,255)</hairColor>
+    <beard>NoBeard</beard>
+    <headType>Female_AverageNormal</headType>
+    <bodyType>Thin</bodyType>
+    <childHood>KC_AverageKanmusume</childHood>
+    <adultHood>KC_Destroyer</adultHood>
+    <inventory>
+      <MealSurvivalPack>5</MealSurvivalPack>
+    </inventory>
+    <traits>
+      <KC_JapanShip/>
+    </traits>
+    <hediffs>
+      <!-- Add a harmless hediff to remove all hediffs-->
+      <EmptyHediff>0</EmptyHediff>
+    </hediffs>
+    <tags>
+      <li>Kancolle</li>
+    </tags>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <head>HeadNormal</head>
+      <brow>BrowThick</brow>
+      <eye>EyeNormal</eye>
+      <mouth>MouthNormal</mouth>
+      <skin>SkinNormal</skin>
+    </facialAnimationProps>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--base-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+  ParentName="KancolleFixedPawnBase" Name="KC_DestroyerBase" Abstract="true">
+    <age>16</age>
+    <lastName>Destroyer</lastName>
+    <skills>
+      <Shooting>(5,2)</Shooting>
+      <Melee>(5,0)</Melee>
+      <Construction>(5,0)</Construction>
+      <Mining>(3,0)</Mining>
+      <Cooking>(2,0)</Cooking>
+      <Plants>(4,0)</Plants>
+      <Animals>(0,0)</Animals>
+      <Crafting>(7,1)</Crafting>
+      <Artistic>(1,0)</Artistic>
+      <Medicine>(3,0)</Medicine>
+      <Social>(8,0)</Social>
+      <Intellectual>(5,0)</Intellectual>
+    </skills>
+    <adultHood>KC_Destroyer</adultHood>
+    <tags>
+      <li>DD</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+</Defs>

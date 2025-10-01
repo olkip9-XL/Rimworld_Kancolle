@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!--Hibiki-->
+  <KC_Hibiki.degreeDatas.0.label>不死鸟</KC_Hibiki.degreeDatas.0.label>
+  <KC_Hibiki.degreeDatas.0.description>响号驱逐舰是少数存活至战后的IJN驱逐舰之一，她由于回港维修而错过了几次关键战役，这是她能够幸存的主要原因。战后，她被赔偿给苏联并改名为“Верный”。</KC_Hibiki.degreeDatas.0.description>
+
+  <!--Ecorter-->
+  <KC_Ecorter.degreeDatas.0.label>舰队护卫</KC_Ecorter.degreeDatas.0.label>
+  <KC_Ecorter.degreeDatas.0.description>{PAWN_nameDef}在舰队中主要承担护卫任务。</KC_Ecorter.degreeDatas.0.description>
+
+  <!--KC_PoorCook-->
+  <KC_PoorCook.degreeDatas.0.label>大厨</KC_PoorCook.degreeDatas.0.label>
+  <KC_PoorCook.degreeDatas.0.description>{PAWN_nameDef}非常擅长料理，她做出来的食物永远不会有毒。</KC_PoorCook.degreeDatas.0.description>
+  <KC_PoorCook.degreeDatas.1.label>擅长料理</KC_PoorCook.degreeDatas.1.label>
+  <KC_PoorCook.degreeDatas.1.description>{PAWN_nameDef}擅长料理，她做菜又快又好。</KC_PoorCook.degreeDatas.1.description>
+  <KC_PoorCook.degreeDatas.2.label>料理苦手</KC_PoorCook.degreeDatas.2.label>
+  <KC_PoorCook.degreeDatas.2.description>{PAWN_nameDef}的料理水平很低，没法做出很好的料理。</KC_PoorCook.degreeDatas.2.description>
+  <KC_PoorCook.degreeDatas.3.label>黑暗料理</KC_PoorCook.degreeDatas.3.label>
+  <KC_PoorCook.degreeDatas.3.description>{PAWN_nameDef}的料理技能实在太差，她做的饭总是会让人中毒。</KC_PoorCook.degreeDatas.3.description>
+
+  <!--KC_DemonGod-->
+  <KC_Ayanami.degreeDatas.0.label>鬼神</KC_Ayanami.degreeDatas.0.label>
+  <KC_Ayanami.degreeDatas.0.description>{PAWN_nameDef}因其在第三次所罗门海战中的突出表现而获得“鬼神”的称号。</KC_Ayanami.degreeDatas.0.description>
+
+  <!--KC_Tsundere-->
+  <KC_Tsundere.degreeDatas.0.label>傲娇</KC_Tsundere.degreeDatas.0.label>
+  <KC_Tsundere.degreeDatas.0.description>{PAWN_nameDef}表面上冷漠傲慢，但内心却非常关心他人。</KC_Tsundere.degreeDatas.0.description>
+
+  <!--KC_HighTempHighPressure-->
+  <KC_HighTempHighPressure.degreeDatas.0.label>新型高温高压缶</KC_HighTempHighPressure.degreeDatas.0.label>
+  <KC_HighTempHighPressure.degreeDatas.0.description>{PAWN_nameDef}装备了新型高温高压锅炉，能够提供更高的动力输出。</KC_HighTempHighPressure.degreeDatas.0.description>
+
+  <!--KC_Tokikaze-->
+  <KC_Tokikaze.degreeDatas.0.label>风暴中的时津风</KC_Tokikaze.degreeDatas.0.label>
+  <KC_Tokikaze.degreeDatas.0.description>初代时津风在1918年因风暴原因触礁而只剩下部分锅炉和拆下的武器，但是之后以“大修”为名而被重建并存活至战后。重生后的时津风运气极佳，战后被当作训练舰得以保留，直到1948年因风暴受损沉没。可谓在风暴中重生，又在风暴中离去。</KC_Tokikaze.degreeDatas.0.description>
+
+  <!--KC_Yukikaze-->
+  <KC_Yukikaze.degreeDatas.0.label>吴之雪风</KC_Yukikaze.degreeDatas.0.label>
+  <KC_Yukikaze.degreeDatas.0.description>雪风号是阳炎型驱逐舰8号舰，在历史上是著名的功勋舰与强运舰。雪风号参与过16次以上的作战并取得战果，且近乎丝毫无损的状态存留至战争结束，被称为“奇迹的驱逐舰”。战后被赔偿给中华民国并改名“丹阳”。\n\n--雪风是不会沉没的！</KC_Yukikaze.degreeDatas.0.description>
+
+  <!--KC_SeaLegend-->
+  <KC_SeaLegend.degreeDatas.0.label>海上传奇</KC_SeaLegend.degreeDatas.0.label>
+  <KC_SeaLegend.degreeDatas.0.description>{PAWN_nameDef}是一艘传奇舰船，她在历史上留下了浓墨重彩的一笔。</KC_SeaLegend.degreeDatas.0.description>
+
+  <!--KC_Yudachi-->
+  <KC_Yudachi.degreeDatas.0.label>所罗门的噩梦</KC_Yudachi.degreeDatas.0.label>
+  <KC_Yudachi.degreeDatas.0.description>夕立是白露型驱逐舰四号舰，在第三次所罗门海战中，夕立因其勇猛的作战表现和丰厚的战果而被誉为“所罗门的噩梦”。\n\n--poi？</KC_Yudachi.degreeDatas.0.description>
+
+  <!--KC_Shigure-->
+  <KC_Shigure.degreeDatas.0.label>佐世保之时雨</KC_Shigure.degreeDatas.0.label>
+  <KC_Shigure.degreeDatas.0.description>时雨是白露型驱逐舰二号舰，是一艘有着漫长而历经战火洗礼的舰历的驱逐舰，有着“幸运舰”的称号。多次目睹战友沉没的经历造成了她略显忧郁的性格。尽管时雨实际上是诞生自横须贺市的舰娘，却成为了佐世保镇守府的象征。\n\n--雨，终有停息之时。</KC_Shigure.degreeDatas.0.description>
+
+</LanguageData>

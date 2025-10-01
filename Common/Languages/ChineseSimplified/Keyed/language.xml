@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <KC_StartBuilding>开始建造</KC_StartBuilding>
+
+  <KC_NotEnoughMat>材料不足</KC_NotEnoughMat>
+  
+  <KC_GachaSuccess>订单已接收，{0}会在2~3天后抵达。</KC_GachaSuccess>
+ 
+  <KC_NoMorePawns>角色池已耗尽。</KC_NoMorePawns>
+
+  <KC_PawnArrived>{0}已抵达殖民地。</KC_PawnArrived>
+
+  <KC_PawnArriveLable>抵达</KC_PawnArriveLable>
+
+  <KC_CallKancolle>建造舰娘</KC_CallKancolle>
+
+  <KC_ToggleTurret>自动开火</KC_ToggleTurret>
+
+  <KC_ToggleTurretDesc>切换防空炮自动开火</KC_ToggleTurretDesc>
+  
+  <!--settings-->
+
+  <KC_Hourlie>时报语音</KC_Hourlie>
+
+  <KC_Null>无</KC_Null>
+
+</LanguageData>

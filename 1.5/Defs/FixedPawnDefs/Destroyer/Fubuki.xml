@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--吹雪级驱逐舰-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+  ParentName="KC_DestroyerBase" Name="KC_FubukiBase" Abstract="true">
+    <equipment>
+      <TwinGunMount/>
+    </equipment>
+    <skills>
+      <Shooting>(12,2)</Shooting>
+      <Melee>(6,1)</Melee>
+    </skills>
+    <abilities>
+      <li>KC_TopedoFireTriple</li>
+    </abilities>
+    <traits>
+      <KC_FubukiClass/>
+    </traits>
+    <relations>
+      <Sibling>KC_Fubuki</Sibling>
+    </relations>
+    <comps>
+      <li Class="FPG_Kancolle.CompProperties_ShipGirlTurret">
+        <turretDef>Gun_25mmSingleAATurret</turretDef>
+        <angleOffset>-90</angleOffset>
+        <turretIcon>UI/Icons/Turret/25mmSingleAA</turretIcon>
+      </li>
+    </comps>
+    <tags>
+      <li>Fubuki</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+  <!--Fubuki-->
+  <!--吹雪-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_FubukiBase">
+    <defName>KC_Fubuki</defName>
+    <hair>RCFubuki</hair>
+    <skinColor>(254, 232, 198)</skinColor>
+    <firstName>Fubuki</firstName>
+    <nickName>Fubuki</nickName>
+    <apparel>
+      <RC_FubukiBody/>
+      <RC_FubukiWig/>
+    </apparel>
+    <traits>
+      <Industriousness>2</Industriousness>
+    </traits>
+    <skills>
+      <Construction>(6,0)</Construction>
+      <Mining>(6,0)</Mining>
+      <Cooking>(8,0)</Cooking>
+      <Plants>(8,0)</Plants>
+      <Animals>(1,0)</Animals>
+      <Crafting>(10,0)</Crafting>
+      <Artistic>(6,0)</Artistic>
+      <Medicine>(5,0)</Medicine>
+      <Social>(5,0)</Social>
+      <Intellectual>(2,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(58, 55, 47)</leftEyeColor>
+      <rightEyeColor>(58, 55, 47)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Fubuki</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Fubuki</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>162;257;220;154</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Murakumo-->
+  <!--丛云-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_FubukiBase">
+    <defName>KC_Murakumo</defName>
+    <hair>RCMurakumo</hair>
+    <skinColor>(255, 245, 226)</skinColor>
+    <firstName>Murakumo</firstName>
+    <nickName>Murakumo</nickName>
+    <traits>
+      <KC_Tsundere/>
+    </traits>
+    <apparel>
+      <RC_MurakumoBody/>
+      <RC_MurakumoWig/>
+    </apparel>
+    <skills>
+      <Construction>(8,0)</Construction>
+      <Mining>(5,0)</Mining>
+      <Cooking>(6,0)</Cooking>
+      <Plants>(6,0)</Plants>
+      <Animals>(9,0)</Animals>
+      <Crafting>(1,0)</Crafting>
+      <Artistic>(6,0)</Artistic>
+      <Medicine>(10,0)</Medicine>
+      <Social>(4,0)</Social>
+      <Intellectual>(5,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(222, 98, 65)</leftEyeColor>
+      <rightEyeColor>(222, 98, 65)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Murakumo</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Murakumo</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>213;132;038;208</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+</Defs>

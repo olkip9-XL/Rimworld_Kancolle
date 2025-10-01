@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <KC_Hourlie_Akatsuki.label>晓</KC_Hourlie_Akatsuki.label>
+  <KC_Hourlie_Hibiki.label>响</KC_Hourlie_Hibiki.label>
+  <KC_Hourlie_Akizuki.label>秋月</KC_Hourlie_Akizuki.label>
+  <KC_Hourlie_Teruzuki.label>照月</KC_Hourlie_Teruzuki.label>
+  <KC_Hourlie_Hatsuzuki.label>初月</KC_Hourlie_Hatsuzuki.label>
+  <KC_Hourlie_Ayanami.label>绫波</KC_Hourlie_Ayanami.label>
+  <KC_Hourlie_Fubuki.label>吹雪</KC_Hourlie_Fubuki.label>
+  <KC_Hourlie_Murakumo.label>丛云</KC_Hourlie_Murakumo.label>
+  <KC_Hourlie_Amatsukaze.label>天津风</KC_Hourlie_Amatsukaze.label>
+  <KC_Hourlie_Tokitsukaze.label>时津风</KC_Hourlie_Tokitsukaze.label>
+  <KC_Hourlie_Isokaze.label>矶风</KC_Hourlie_Isokaze.label>
+  <KC_Hourlie_Kamikaze.label>神风</KC_Hourlie_Kamikaze.label>
+  <KC_Hourlie_Asakaze.label>朝风</KC_Hourlie_Asakaze.label>
+  <KC_Hourlie_Harukaze.label>春风</KC_Hourlie_Harukaze.label>
+  <KC_Hourlie_Matsukaze.label>松风</KC_Hourlie_Matsukaze.label>
+  <KC_Hourlie_Shiratsuyu.label>白露</KC_Hourlie_Shiratsuyu.label>
+  <KC_Hourlie_Harusame.label>春雨</KC_Hourlie_Harusame.label>
+  <KC_Hourlie_Yudachi.label>夕立</KC_Hourlie_Yudachi.label>
+  <KC_Hourlie_Shigure.label>时雨</KC_Hourlie_Shigure.label>
+  <KC_Hourlie_Shigure_Kai.label>时雨改</KC_Hourlie_Shigure_Kai.label>
+  <KC_Hourlie_Z1.label>Z1</KC_Hourlie_Z1.label>
+  <KC_Hourlie_Z3.label>Z3</KC_Hourlie_Z3.label>
+
+</LanguageData>

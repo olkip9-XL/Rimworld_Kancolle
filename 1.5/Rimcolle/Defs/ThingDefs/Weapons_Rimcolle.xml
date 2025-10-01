@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="BaseRimcolleArmament" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <equipmentType>Primary</equipmentType>
+    <useHitPoints>true</useHitPoints>
+    <pathCost>10</pathCost>
+    <selectable>true</selectable>
+    <techLevel>Spacer</techLevel>
+    <smeltable>true</smeltable>
+    <generateCommonality>0.1</generateCommonality>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <thingCategories>
+      <li>RimcolleArmament</li>
+    </thingCategories>
+    <weaponTags>
+      <li>RimcolleGun</li>
+    </weaponTags>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>RimcolleCraftingTable</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="BaseRimcolleBullet" Abstract="True">
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Bullet</thingClass>
+    <label>bullet</label>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef Name="BaseRimcolleGrenade" Abstract="True">
+    <category>Projectile</category>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Projectile_Explosive</thingClass>
+    <label>projectile</label>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <projectile>
+      <speed>12</speed>
+      <arcHeightFactor>2</arcHeightFactor>
+      <shadowSize>0.4</shadowSize>
+      <flyOverhead>false</flyOverhead>
+    </projectile>
+  </ThingDef>
+
+<!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseRimcolleBullet">
+    <defName>AP_ShellA</defName>
+    <label>AP Shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ArmorPiercingShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Gochin</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+	  <explosionRadius>0.9</explosionRadius>
+      <speed>68</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>TwinGunMount</defName>
+    <label>12.7cmTwinGunMount</label>
+    <description>The main gun of fleet destroyers. Shielded for defense toward splinters as well as bad weathers and equipped with powered turrets, this modern main gun for small vessels was equipped on most fleet destroyers. Due to its low elevation angle, anti-air firing is not its forte.</description>
+    <graphicData>
+      <texPath>Things/Weapon/127mmTwinGunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>10</Shell_HighExplosive>
+	  <Steel>190</Steel>
+	  <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>64000</WorkToMake>
+      <Mass>6.5</Mass>
+	  <MarketValue>1680</MarketValue>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.58</AccuracyShort>
+      <AccuracyMedium>0.72</AccuracyMedium>
+      <AccuracyLong>0.68</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AP_ShellA</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>45</range>
+        <burstShotCount>4</burstShotCount>
+		<ticksBetweenBurstShots>43</ticksBetweenBurstShots>
+        <soundCast>SoundsTwinGunMount</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+<!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>TwinGunMountModelBKai</defName>
+    <label>12.7cmTwinGunMountModelBKai2</label>
+    <description>This is main cannon of destroyers with minor changes. It is quite identical with the base form, having a fully shielded turret for protection against shrapnel and the elements, and also with an improved gun elevation. It is said to be mounted aboard destroyers, such as on the Yuudachi.</description>
+    <graphicData>
+      <texPath>Things/Weapon/127mmTwinGunMountModelBKai</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>10</Shell_HighExplosive>
+	  <Steel>210</Steel>
+	  <ComponentSpacer>15</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>68000</WorkToMake>
+      <Mass>7.5</Mass>
+	  <MarketValue>1800</MarketValue>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.72</AccuracyLong>
+      <RangedWeapon_Cooldown>2.45</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AP_ShellA</defaultProjectile>
+        <warmupTime>2.95</warmupTime>
+        <range>48</range>
+        <burstShotCount>4</burstShotCount>
+		<ticksBetweenBurstShots>43</ticksBetweenBurstShots>
+        <soundCast>SoundsTwinGunMountModelBKai</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+<!-- ============================================================== -->
+  
+  <ThingDef ParentName="BaseRimcolleBullet">
+    <defName>AP_ShellB</defName>
+    <label>AP Shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ArmorPiercingShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Gochin</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+	  <explosionRadius>0.9</explosionRadius>
+      <speed>76</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>TwinHighAngleGunMountB</defName>
+    <label>10cmTwinHigh-angleGunMount</label>
+    <description>Main weapon for AA destroyers. The groundbreaking long-barrel semi-automatic loaded gun mounted on turret, popularly known as Long 10cm, equipped on Akizuki-class destroyers. Its complex structure made it difficult to mass-produce, but it's a silver bullet against enemy aircraft.</description>
+    <graphicData>
+      <texPath>Things/Weapon/100mmTwinHighAngleGunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>15</Shell_HighExplosive>
+	  <Steel>200</Steel>
+	  <ComponentSpacer>15</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>66000</WorkToMake>
+      <Mass>5.5</Mass>
+	  <MarketValue>1600</MarketValue>
+      <AccuracyTouch>0.73</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.67</AccuracyMedium>
+      <AccuracyLong>0.61</AccuracyLong>
+      <RangedWeapon_Cooldown>2.35</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AP_ShellB</defaultProjectile>
+        <warmupTime>2.85</warmupTime>
+        <range>40</range>
+        <burstShotCount>9</burstShotCount>
+		<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+        <soundCast>SoundsHighAngleGunMount</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+<!-- ============================================================== -->
+  
+  <ThingDef ParentName="BaseRimcolleBullet">
+    <defName>AP_ShellC</defName>
+    <label>AP Shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ArmorPiercingShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Gochin</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+	  <explosionRadius>0.9</explosionRadius>
+      <speed>72</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>SingleHighAngleGunMountC</defName>
+    <label>12.7cmSingleHigh-angleGunMount</label>
+    <description>A standard anti-aircraft high-angle gun. Its design being suited for mass production as well as being economical, it was mounted on late model destroyers, escort ships and transport ships as well. Against attacking enemy aircraft, although it is a peashooter, it can retaliate.</description>
+    <graphicData>
+      <texPath>Things/Weapon/127mmSingleHighAngleGunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>15</Shell_HighExplosive>
+	  <Steel>190</Steel>
+	  <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>64500</WorkToMake>
+      <Mass>5.2</Mass>
+	  <MarketValue>1550</MarketValue>
+      <AccuracyTouch>0.69</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.64</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AP_ShellC</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>36</range>
+        <burstShotCount>7</burstShotCount>
+		<ticksBetweenBurstShots>33</ticksBetweenBurstShots>
+        <soundCast>SoundsHighAngleGunMount</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+<!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>TwinHighAngleGunMountC</defName>
+    <label>12.7cmTwinHigh-angleGunMount(Late Model)</label>
+    <description>A late variant of the standard high-angle AA gun. Its structure is very economically efficient, enabling it to be easily mass-produced. It also boasts outstanding performance for a dual gun. Improved areas include turning speed, which was one of the weapon design challenges. Its anti-aircraft fire capabilities can now be relied on.</description>
+    <graphicData>
+      <texPath>Things/Weapon/127mmTwinHighAngleGunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>15</Shell_HighExplosive>
+	  <Steel>210</Steel>
+	  <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>71000</WorkToMake>
+      <Mass>5.4</Mass>
+	  <MarketValue>1600</MarketValue>
+      <AccuracyTouch>0.74</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.64</AccuracyMedium>
+      <AccuracyLong>0.54</AccuracyLong>
+      <RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AP_ShellC</defaultProjectile>
+        <warmupTime>2.6</warmupTime>
+        <range>36</range>
+        <burstShotCount>7</burstShotCount>
+		<ticksBetweenBurstShots>33</ticksBetweenBurstShots>
+        <soundCast>SoundsHighAngleGunMount</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+<!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseRimcolleBullet">
+    <defName>AP_ShellD</defName>
+    <label>AP Shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ArmorPiercingShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Gochin</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+	  <explosionRadius>0.9</explosionRadius>
+      <speed>68</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>SingleGunMount</defName>
+    <label>12cmSingleGunMount</label>
+    <description>The older main gun for small vessels. Equipped as the standard weapon on old destroyers. Both loading and rotation were hand-operated, but with its simple construction and low cost, it served for a long time as the main weapon of destroyers and escorts. Not intended for anti-air firing.</description>
+    <graphicData>
+      <texPath>Things/Weapon/120mmSingleGunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>8</Shell_HighExplosive>
+	  <Steel>165</Steel>
+	  <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>5.2</Mass>
+	  <MarketValue>1500</MarketValue>
+      <AccuracyTouch>0.48</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.66</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AP_ShellD</defaultProjectile>
+        <warmupTime>2.3</warmupTime>
+        <range>28</range>
+        <burstShotCount>2</burstShotCount>
+		<ticksBetweenBurstShots>50</ticksBetweenBurstShots>
+        <soundCast>SoundsSingleGunMount</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+<!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseRimcolleBullet">
+    <defName>HE_ShellA</defName>
+    <label>HE Shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ArmorPiercingShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Danmaku</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>TripleAutocannonMountA</defName>
+    <label>25mmTripleAutocannonMount</label>
+    <description>An improved version of a domestically produced, anti-aircraft autocannon. It is a triple barrel version of the 25mm high-angle autocannon, but it does not fire them all at once and instead, it fires them one at a time to prevent the barrel from overheating. Supplementing the conventional twin autocannon and provisional single autocannons, this 25mm triple autocannon became the mainstay of close range anti-aircraft armaments.</description>
+    <graphicData>
+      <texPath>Things/Weapon/25mmTripleAutocannonMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>10</Shell_HighExplosive>
+	  <Steel>200</Steel>
+	  <ComponentSpacer>15</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>68500</WorkToMake>
+      <Mass>2.8</Mass>
+	  <MarketValue>1450</MarketValue>
+      <AccuracyTouch>0.84</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.36</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
+      <RangedWeapon_Cooldown>1.58</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HE_ShellA</defaultProjectile>
+        <warmupTime>3.12</warmupTime>
+        <range>24</range>
+        <burstShotCount>45</burstShotCount>
+		<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>SoundsTripleAutocannonMount</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+<!-- ============================================================== -->
+  
+  <ThingDef ParentName="BaseRimcolleBullet">
+    <defName>OxygenTorpedo</defName>
+    <label>Type93Torpedo</label>
+    <graphicData>
+      <texPath>Things/Projectile/Type93Torpedo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+	  <flyOverhead>True</flyOverhead>
+	  <damageDef>Suirai</damageDef>
+	  <explosionRadius>2.5</explosionRadius>
+	  <speed>35</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>TripleOxygenTorpedoMount</defName>
+    <label>61cmTriple(Oxygen)TorpedoMount</label>
+    <description>The 61cm torpedo was developed as a successor to the obsolete 53cm torpedo. This 3-tubed torpedo launcher is equipped on Special-type destroyers (i.e. Fubuki). The improved version also exchanged its torpedoes for the Type 93 oxygen torpedo.</description>
+    <graphicData>
+      <texPath>Things/Weapon/61cmTripleTorpedoMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>20</Shell_HighExplosive>
+	  <Steel>200</Steel>
+	  <ComponentSpacer>15</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>90000</WorkToMake>
+      <Mass>3.6</Mass>
+	  <MarketValue>1600</MarketValue>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.15</AccuracyMedium>
+      <AccuracyLong>0.05</AccuracyLong>
+      <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>OxygenTorpedo</defaultProjectile>
+        <warmupTime>4.5</warmupTime>
+        <range>45</range>
+        <forcedMissRadius>2.5</forcedMissRadius>
+        <burstShotCount>3</burstShotCount>
+		<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+        <soundCast>SoundsTorpedo</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+		<targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+　
+<!-- ============================================================== -->
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>QuadrupleOxygenTorpedoMount</defName>
+    <label>61cmQuadruple(Oxygen)TorpedoMount</label>
+    <description>A famous high-powered, long range mount, the secret weapon "Type 93 Oxygen Torpedo". The oxygen torpedo was able to bring certain death with its four tubes as well as being the definitive torpedo mount, using the four twin [Oxygen Torpedoes] firing tubes. As the new main equipment for destroyers and cruisers, it played a major role in night warfare and many other compositions.</description>
+    <graphicData>
+      <texPath>Things/Weapon/61cmQuadrupleTorpedoMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>25</Shell_HighExplosive>
+	  <Steel>230</Steel>
+	  <ComponentSpacer>15</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>98000</WorkToMake>
+      <Mass>3.8</Mass>
+	  <MarketValue>1700</MarketValue>
+      <AccuracyTouch>0.81</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.18</AccuracyMedium>
+      <AccuracyLong>0.08</AccuracyLong>
+      <RangedWeapon_Cooldown>4.05</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>OxygenTorpedo</defaultProjectile>
+        <warmupTime>4.55</warmupTime>
+        <range>45</range>
+        <forcedMissRadius>2.5</forcedMissRadius>
+        <burstShotCount>4</burstShotCount>
+		<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+        <soundCast>SoundsTorpedo</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+		<targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+　
+<!-- ============================================================== -->
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>QuintupleOxygenTorpedoMount</defName>
+    <label>61cmQuintuple(Oxygen)TorpedoMount</label>
+    <description>Powerful, yet also boasting a long range, it is a secret weapon known as the "Type 93 oxygen torpedo". This deadly armament was the final one in the series to be built as Quint mounted [Oxygen] torpedoes launch tubes. It was the installation of choice on the fast torpedo-boat destroyer, the Shimakaze. Ooi and Super Kitakami-sama are also looking at me!</description>
+    <graphicData>
+      <texPath>Things/Weapon/61cmQuintupleTorpedoMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>30</Shell_HighExplosive>
+	  <Steel>280</Steel>
+	  <ComponentSpacer>20</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>115000</WorkToMake>
+      <Mass>4.0</Mass>
+	  <MarketValue>1800</MarketValue>
+      <AccuracyTouch>0.78</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.22</AccuracyMedium>
+      <AccuracyLong>0.12</AccuracyLong>
+      <RangedWeapon_Cooldown>4.1</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>OxygenTorpedo</defaultProjectile>
+        <warmupTime>4.6</warmupTime>
+        <range>50</range>
+        <forcedMissRadius>2.5</forcedMissRadius>
+        <burstShotCount>5</burstShotCount>
+		<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+        <soundCast>SoundsTorpedo</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+		<targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+　
+<!-- ============================================================== -->
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+    <defName>PrototypeSextupleOxygenTorpedoMount</defName>
+    <label>Prototype61cmSextuple(Oxygen)TorpedoMount</label>
+    <description>The secret weapon that boasting high firepower and long range, the "Type 93 oxygen torpedo". Crammed full of those deadly oxygen torpedoes, these prototype sextuple "oxygen torpedo" launcher tubes held more firepower in one turret than the total available upon one of the older model destroyers. There were also plans to mount these on the later new model destroyers.</description>
+    <graphicData>
+      <texPath>Things/Weapon/Prototype61cmSextupleTorpedoMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>35</Shell_HighExplosive>
+	  <Steel>340</Steel>
+	  <ComponentSpacer>35</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>132000</WorkToMake>
+      <Mass>4.2</Mass>
+	  <MarketValue>1800</MarketValue>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>4.15</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+		<li>RimcolleGun</li>
+	</weaponTags>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>OxygenTorpedo</defaultProjectile>
+        <warmupTime>4.65</warmupTime>
+        <range>60</range>
+        <forcedMissRadius>2.4</forcedMissRadius>
+        <burstShotCount>6</burstShotCount>
+		<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+        <soundCast>SoundsTorpedo</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+		<targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+　
+<!-- ============================================================== -->
+  
+  <ThingDef ParentName="BaseRimcolleGrenade">
+	<defName>Proj_DepthCharge</defName>
+	<label>Type2DepthCharge</label>
+	<thingClass>Projectile_Explosive</thingClass>
+	<graphicData>
+	  <texPath>Things/Projectile/Type2DepthCharge</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+	  <explosionRadius >1.9</explosionRadius >
+	  <damageDef>Suirai</damageDef>
+	  <damageAmountBase>38</damageAmountBase>
+	  <explosionDelay>100</explosionDelay>
+	</projectile>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseRimcolleArmament">
+	<defName>Weapon_DepthCharge</defName>
+	<label>Type2DepthCharge</label>
+	<description>This is additional depth charge equipment for used in anti-submarine actions. The depth charges have been improved from wartime testing. When equipped in combination with depth charge projectors, sonar, and such anti-submarine equipment on destroyer, coastal defense ships, and the like, anti-submarine ability will increase.</description>
+	<graphicData>
+	  <texPath>Things/Weapon/Type2DepthChargeW</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Grenade</soundInteract>
+	<recipeMaker>
+	  <researchPrerequisite>RimcolleTech</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Shell_HighExplosive>5</Shell_HighExplosive>
+	  <Steel>140</Steel>
+	  <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+	<statBases>
+      <WorkToMake>50000</WorkToMake>
+	  <Mass>1</Mass>
+	  <MarketValue>1000</MarketValue>
+	  <RangedWeapon_Cooldown>2.85</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+	  <li>RimcolleGun</li>
+	</weaponTags>
+	  <verbs>
+		<li>
+		  <label>throw Type2DepthCharge</label>
+		  <verbClass>Verb_LaunchProjectile</verbClass>
+		  <hasStandardCommand>true</hasStandardCommand>
+		  <range>14</range>
+		  <forcedMissRadius>0.7</forcedMissRadius>
+		  <warmupTime>1.8</warmupTime>
+		  <noiseRadius>4</noiseRadius>
+		  <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+		  <soundCast>SoundsBakurai</soundCast>
+		  <targetParams>
+			  <canTargetLocations>true</canTargetLocations>
+		  </targetParams>
+		  <defaultProjectile>Proj_DepthCharge</defaultProjectile>
+		</li>
+	  </verbs>
+  </ThingDef>
+　
+</Defs>

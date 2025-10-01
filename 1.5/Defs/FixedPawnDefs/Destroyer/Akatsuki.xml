@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--晓级驱逐舰-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+   ParentName="KC_DestroyerBase" Name="KC_AkatsukiBase" Abstract="true">
+    <equipment>
+      <TwinGunMount/>
+    </equipment>
+    <skills>
+      <Shooting>(12,2)</Shooting>
+      <Melee>(6,1)</Melee>
+    </skills>
+    <abilities>
+      <li>KC_TopedoFireTriple</li>
+    </abilities>
+    <traits>
+      <KC_AkatsukiClass/>
+    </traits>
+    <relations>
+      <Sibling>KC_Akatsuki</Sibling>
+    </relations>
+    <comps>
+      <li Class="FPG_Kancolle.CompProperties_ShipGirlTurret">
+        <turretDef>Gun_25mmSingleAATurret</turretDef>
+        <angleOffset>-90</angleOffset>
+        <turretIcon>UI/Icons/Turret/25mmSingleAA</turretIcon>
+      </li>
+    </comps>
+    <tags>
+      <li>Akatsuki</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+  <!--Akatsuki-->
+  <!--晓-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_AkatsukiBase">
+    <defName>KC_Akatsuki</defName>
+    <hair>RCAkatsuki</hair>
+    <skinColor>(254, 240, 219)</skinColor>
+    <firstName>Akatsuki</firstName>
+    <nickName>Akatsuki</nickName>
+    <apparel>
+      <RC_AkatsukiBody/>
+      <RC_AkatsukiWig/>
+    </apparel>
+    <skills>
+      <Construction>(0,0)</Construction>
+      <Mining>(4,0)</Mining>
+      <Cooking>(0,0)</Cooking>
+      <Plants>(10,0)</Plants>
+      <Animals>(3,0)</Animals>
+      <Crafting>(1,0)</Crafting>
+      <Artistic>(10,0)</Artistic>
+      <Medicine>(2,0)</Medicine>
+      <Social>(3,0)</Social>
+      <Intellectual>(5,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(141, 117, 168)</leftEyeColor>
+      <rightEyeColor>(141, 117, 168)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Akatsuki</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Akatsuki</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>162;216;084;210</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Hibiki-->
+  <!--響-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_AkatsukiBase">
+    <defName>KC_Hibiki</defName>
+    <hair>RCHibiki</hair>
+    <skinColor>(254, 238, 219)</skinColor>
+    <firstName>Hibiki</firstName>
+    <nickName>Hibiki</nickName>
+    <apparel>
+      <RC_HibikiBody/>
+      <RC_HibikiWig/>
+    </apparel>
+    <skills>
+      <Construction>(1,0)</Construction>
+      <Mining>(5,0)</Mining>
+      <Cooking>(6,0)</Cooking>
+      <Plants>(7,0)</Plants>
+      <Animals>(4,0)</Animals>
+      <Crafting>(3,0)</Crafting>
+      <Artistic>(4,0)</Artistic>
+      <Medicine>(1,0)</Medicine>
+      <Social>(0,0)</Social>
+      <Intellectual>(8,0)</Intellectual>
+    </skills>
+    <traits>
+      <KC_Hibiki/>
+    </traits>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(160, 187, 207)</leftEyeColor>
+      <rightEyeColor>(160, 187, 207)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Hibiki</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Hibiki</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>262;162;106;239</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Ikazuchi-->
+  <!--雷-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_AkatsukiBase">
+    <defName>KC_Ikazuchi</defName>
+    <hair>RCIkazuchi</hair>
+    <skinColor>(254, 239, 215)</skinColor>
+    <firstName>Ikazuchi</firstName>
+    <nickName>Ikazuchi</nickName>
+    <apparel>
+      <RC_IkazuchiBody/>
+      <RC_IkazuchiWig/>
+    </apparel>
+    <skills>
+      <Construction>(5,0)</Construction>
+      <Mining>(3,0)</Mining>
+      <Cooking>(6,0)</Cooking>
+      <Plants>(0,0)</Plants>
+      <Animals>(4,0)</Animals>
+      <Crafting>(4,0)</Crafting>
+      <Artistic>(3,0)</Artistic>
+      <Medicine>(2,0)</Medicine>
+      <Social>(9,0)</Social>
+      <Intellectual>(0,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(220, 150, 99)</leftEyeColor>
+      <rightEyeColor>(220, 150, 99)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Ikazuchi</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Ikazuchi</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>214;173;167;128</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Inazuma-->
+  <!--电-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_AkatsukiBase">
+    <defName>KC_Inazuma</defName>
+    <hair>RCInazuma</hair>
+    <skinColor>(254, 238, 216)</skinColor>
+    <firstName>Inazuma</firstName>
+    <nickName>Inazuma</nickName>
+    <apparel>
+      <RC_InazumaBody/>
+      <RC_InazumaWig/>
+    </apparel>
+    <skills>
+      <Construction>(0,0)</Construction>
+      <Mining>(9,0)</Mining>
+      <Cooking>(5,0)</Cooking>
+      <Plants>(10,0)</Plants>
+      <Animals>(9,0)</Animals>
+      <Crafting>(7,0)</Crafting>
+      <Artistic>(1,0)</Artistic>
+      <Medicine>(0,0)</Medicine>
+      <Social>(6,0)</Social>
+      <Intellectual>(10,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(227, 173, 99)</leftEyeColor>
+      <rightEyeColor>(227, 173, 99)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Inazuma</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Inazuma</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>225;187;161;234</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+</Defs>

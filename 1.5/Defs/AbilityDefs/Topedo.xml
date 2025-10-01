@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <AbilityDef Name="KC_TopedoFireBase" Abstract="true">
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_AbilityShoot</verbClass>
+      <defaultProjectile>OxygenTorpedo</defaultProjectile>
+      <range>56</range>
+      <soundCast>SoundsTorpedo</soundCast>
+      <soundCastTail>GunTail_Heavy</soundCastTail>
+      <muzzleFlashScale>0</muzzleFlashScale>
+      <ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+      <ai_IsWeapon>false</ai_IsWeapon>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_AbilityPawnVoice">
+        <selfVoice>Attack</selfVoice>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef ParentName="KC_TopedoFireBase">
+    <defName>KC_TopedoFireDouble</defName>
+    <label>Topedo fire</label>
+    <description>Fire a salvo of torpedoes using the twin torpedo launcher.</description>
+    <iconPath>UI/Ability/TopedoDouble</iconPath>
+    <!--3min-->
+    <cooldownTicksRange>10800</cooldownTicksRange>
+    <verbProperties>
+      <warmupTime>3.8</warmupTime>
+      <burstShotCount>2</burstShotCount>
+      <accuracyTouch>0.92</accuracyTouch>
+      <accuracyShort>0.81</accuracyShort>
+      <accuracyMedium>0.25</accuracyMedium>
+      <accuracyLong>0.13</accuracyLong>
+    </verbProperties>
+  </AbilityDef>
+
+  <AbilityDef ParentName="KC_TopedoFireBase">
+    <defName>KC_TopedoFireTriple</defName>
+    <label>Topedo fire</label>
+    <description>Fire a salvo of torpedoes using the triple torpedo launcher.</description>
+    <iconPath>UI/Ability/TopedoTriple</iconPath>
+    <!--4min-->
+    <cooldownTicksRange>14400</cooldownTicksRange>
+    <verbProperties>
+      <warmupTime>4.5</warmupTime>
+      <burstShotCount>3</burstShotCount>
+      <accuracyTouch>0.86</accuracyTouch>
+      <accuracyShort>0.73</accuracyShort>
+      <accuracyMedium>0.15</accuracyMedium>
+      <accuracyLong>0.05</accuracyLong>
+    </verbProperties>
+  </AbilityDef>
+
+  <AbilityDef ParentName="KC_TopedoFireBase">
+    <defName>KC_TopedoFireQuadruple</defName>
+    <label>Topedo fire</label>
+    <description>Fire a salvo of torpedoes using the quadruple torpedo launcher.</description>
+    <iconPath>UI/Ability/TopedoQuadruple</iconPath>
+    <!--5min-->
+    <cooldownTicksRange>18000</cooldownTicksRange>
+    <verbProperties>
+      <warmupTime>4.55</warmupTime>
+      <burstShotCount>4</burstShotCount>
+      <accuracyTouch>0.81</accuracyTouch>
+      <accuracyShort>0.71</accuracyShort>
+      <accuracyMedium>0.18</accuracyMedium>
+      <accuracyLong>0.08</accuracyLong>
+    </verbProperties>
+  </AbilityDef>
+
+  <AbilityDef ParentName="KC_TopedoFireBase">
+    <defName>KC_TopedoFireQuintuple</defName>
+    <label>Topedo fire</label>
+    <description>Fire a salvo of torpedoes using the quintuple torpedo launcher.</description>
+    <iconPath>UI/Ability/TopedoQuintuple</iconPath>
+    <!--6min-->
+    <cooldownTicksRange>21600</cooldownTicksRange>
+    <verbProperties>
+      <warmupTime>4.65</warmupTime>
+      <burstShotCount>5</burstShotCount>
+      <accuracyTouch>0.75</accuracyTouch>
+      <accuracyShort>0.65</accuracyShort>
+      <accuracyMedium>0.25</accuracyMedium>
+      <accuracyLong>0.15</accuracyLong>
+    </verbProperties>
+  </AbilityDef>
+  
+  
+
+</Defs>
+

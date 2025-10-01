@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--绫波级驱逐舰-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+  ParentName="KC_DestroyerBase" Name="KC_AyanamiBase" Abstract="true">
+    <equipment>
+      <TwinGunMount/>
+    </equipment>
+    <skills>
+      <Shooting>(12,2)</Shooting>
+      <Melee>(6,1)</Melee>
+    </skills>
+    <abilities>
+      <li>KC_TopedoFireTriple</li>
+    </abilities>
+    <traits>
+      <KC_AyanamiClass/>
+    </traits>
+    <relations>
+      <Sibling>KC_Ayanami</Sibling>
+    </relations>
+    <comps>
+      <li Class="FPG_Kancolle.CompProperties_ShipGirlTurret">
+        <turretDef>Gun_25mmSingleAATurret</turretDef>
+        <angleOffset>-90</angleOffset>
+        <turretIcon>UI/Icons/Turret/25mmSingleAA</turretIcon>
+      </li>
+    </comps>
+    <tags>
+      <li>Ayanami</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+  <!--Ayanami-->
+  <!--绫波-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_AyanamiBase">
+    <defName>KC_Ayanami</defName>
+    <hair>RCAyanami</hair>
+    <skinColor>(255, 229, 196)</skinColor>
+    <firstName>Ayanami</firstName>
+    <nickName>Ayanami</nickName>
+    <apparel>
+      <RC_AyanamiBody/>
+      <RC_AyanamiWig/>
+    </apparel>
+    <traits>
+      <KC_Ayanami/>
+    </traits>
+    <skills>
+      <Construction>(2,0)</Construction>
+      <Mining>(10,0)</Mining>
+      <Cooking>(9,0)</Cooking>
+      <Plants>(3,0)</Plants>
+      <Animals>(6,0)</Animals>
+      <Crafting>(0,0)</Crafting>
+      <Artistic>(7,0)</Artistic>
+      <Medicine>(7,0)</Medicine>
+      <Social>(4,0)</Social>
+      <Intellectual>(3,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(68, 64, 49)</leftEyeColor>
+      <rightEyeColor>(68, 64, 49)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Ayanami</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Ayanami</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>280;051;289;297</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+</Defs>

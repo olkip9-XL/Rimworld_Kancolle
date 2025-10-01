@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<ThingCategoryDef>
+		<defName>RimcolleArmament</defName>
+		<label>Outfitting</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>RimcolleCostumes</defName>
+		<label>Fleet girls</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+</Defs>

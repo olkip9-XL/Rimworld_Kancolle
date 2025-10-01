@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <KC_TopedoFireDouble.label>鱼雷发射</KC_TopedoFireDouble.label>
+  <KC_TopedoFireDouble.description>使用双联鱼雷发射管发射一轮鱼雷。</KC_TopedoFireDouble.description>
+
+  <!--KC_TopedoFireTriple-->
+  <KC_TopedoFireTriple.label>鱼雷发射</KC_TopedoFireTriple.label>
+  <KC_TopedoFireTriple.description>使用三联鱼雷发射管发射一轮鱼雷。</KC_TopedoFireTriple.description>
+
+  <!--KC_TopedoFireQuadruple-->
+  <KC_TopedoFireQuadruple.label>鱼雷发射</KC_TopedoFireQuadruple.label>
+  <KC_TopedoFireQuadruple.description>使用四联鱼雷发射管发射一轮鱼雷。</KC_TopedoFireQuadruple.description>
+
+  <!--KC_TopedoFireQuintuple-->
+  <KC_TopedoFireQuintuple.label>鱼雷发射</KC_TopedoFireQuintuple.label>
+  <KC_TopedoFireQuintuple.description>使用五联鱼雷发射管发射一轮鱼雷。</KC_TopedoFireQuintuple.description>
+
+
+</LanguageData>

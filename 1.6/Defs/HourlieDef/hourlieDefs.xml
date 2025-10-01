@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--Akatsuki-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Akatsuki</defName>
+    <label>Akatsuki</label>
+    <hourlieClipPath>Pawn/KC_Voices/Akatsuki/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Hibiki-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Hibiki</defName>
+    <label>Hibiki</label>
+    <hourlieClipPath>Pawn/KC_Voices/Hibiki/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Ikazuchi--><!--
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Ikazuchi</defName>
+    <label>Ikazuchi</label>
+    <hourlieClipPath>Pawn/KC_Voices/Ikazuchi/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>-->
+
+  <!--Inazuma--><!--
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Inazuma</defName>
+    <label>Inazuma</label>
+    <hourlieClipPath>Pawn/KC_Voices/Inazuma/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>-->
+
+  <!--Akizuki-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Akizuki</defName>
+    <label>Akizuki</label>
+    <hourlieClipPath>Pawn/KC_Voices/Akizuki/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Teruzuki-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Teruzuki</defName>
+    <label>Teruzuki</label>
+    <hourlieClipPath>Pawn/KC_Voices/Teruzuki/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Hatsuzuki-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Hatsuzuki</defName>
+    <label>Hatsuzuki</label>
+    <hourlieClipPath>Pawn/KC_Voices/Hatsuzuki/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Ayanami-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Ayanami</defName>
+    <label>Ayanami</label>
+    <hourlieClipPath>Pawn/KC_Voices/Ayanami/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Fubuki-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Fubuki</defName>
+    <label>Fubuki</label>
+    <hourlieClipPath>Pawn/KC_Voices/Fubuki/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Murakumo-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Murakumo</defName>
+    <label>Murakumo</label>
+    <hourlieClipPath>Pawn/KC_Voices/Murakumo/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Amatsukaze-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Amatsukaze</defName>
+    <label>Amatsukaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Amatsukaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Tokitsukaze-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Tokitsukaze</defName>
+    <label>Tokitsukaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Tokitsukaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Yukikaze--><!--
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Yukikaze</defName>
+    <label>Yukikaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Yukikaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>-->
+
+  <!--Urakaze--><!--
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Urakaze</defName>
+    <label>Urakaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Urakaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>-->
+
+  <!--Isokaze-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Isokaze</defName>
+    <label>Isokaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Isokaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Hamakaze--><!--
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Hamakaze</defName>
+    <label>Hamakaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Hamakaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>-->
+
+  <!--Tanikaze--><!--
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Tanikaze</defName>
+    <label>Tanikaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Tanikaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>-->
+
+  <!--Kamikaze-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Kamikaze</defName>
+    <label>Kamikaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Kamikaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Asakaze-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Asakaze</defName>
+    <label>Asakaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Asakaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Harukaze-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Harukaze</defName>
+    <label>Harukaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Harukaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Matsukaze-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Matsukaze</defName>
+    <label>Matsukaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Matsukaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Shimakaze--><!--
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Shimakaze</defName>
+    <label>Shimakaze</label>
+    <hourlieClipPath>Pawn/KC_Voices/Shimakaze/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>-->
+
+  <!--Shiratsuyu-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Shiratsuyu</defName>
+    <label>Shiratsuyu</label>
+    <hourlieClipPath>Pawn/KC_Voices/Shiratsuyu/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Harusame-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Harusame</defName>
+    <label>Harusame</label>
+    <hourlieClipPath>Pawn/KC_Voices/Harusame/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Yudachi-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Yudachi</defName>
+    <label>Yudachi</label>
+    <hourlieClipPath>Pawn/KC_Voices/Yudachi/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Shigure-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Shigure</defName>
+    <label>Shigure</label>
+    <hourlieClipPath>Pawn/KC_Voices/Shigure/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Shigure Kai-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Shigure_Kai</defName>
+    <label>Shigure Kai</label>
+    <hourlieClipPath>Pawn/KC_Voices/Shigure/Time_Kai</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+  <!--Murasame--><!--
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Murasame</defName>
+    <label>Murasame</label>
+    <hourlieClipPath>Pawn/KC_Voices/Murasame/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>-->
+
+  <!--Z1-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Z1</defName>
+    <label>Z1</label>
+    <hourlieClipPath>Pawn/KC_Voices/Z1/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+  
+  <!--Z3-->
+  <FPG_Kancolle.HourlieDef>
+    <defName>KC_Hourlie_Z3</defName>
+    <label>Z3</label>
+    <hourlieClipPath>Pawn/KC_Voices/Z3/Time</hourlieClipPath>
+  </FPG_Kancolle.HourlieDef>
+
+
+</Defs>

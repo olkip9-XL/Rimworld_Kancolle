@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--秋月级驱逐舰-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+   ParentName="KC_DestroyerBase" Name="KC_AkizukiBase" Abstract="true">
+    <equipment>
+      <TwinHighAngleGunMountB/>
+    </equipment>
+    <skills>
+      <Shooting>(10,2)</Shooting>
+      <Melee>(6,1)</Melee>
+    </skills>
+    <traits>
+      <KC_AkizukiClass/>
+      <KC_Ecorter/>
+    </traits>
+    <relations>
+      <Sibling>KC_Akizuki</Sibling>
+    </relations>
+    <comps>
+      <li Class="FPG_Kancolle.CompProperties_ShipGirlTurret">
+        <turretDef>Gun_25mmTribleAATurret</turretDef>
+        <angleOffset>-90</angleOffset>
+        <turretIcon>UI/Icons/Turret/25mmTribleAA</turretIcon>
+      </li>
+    </comps>
+    <tags>
+      <li>Akizuki</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Akizuki-->
+  <!--秋月-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_AkizukiBase">
+    <defName>KC_Akizuki</defName>
+    <hair>RCAkizuki</hair>
+    <skinColor>(251, 225, 203)</skinColor>
+    <firstName>Akizuki</firstName>
+    <nickName>Akizuki</nickName>
+    <apparel>
+      <RC_AkizukiBody/>
+      <RC_AkizukiWig/>
+    </apparel>
+    <skills>
+      <Construction>(6,0)</Construction>
+      <Mining>(2,0)</Mining>
+      <Cooking>(1,0)</Cooking>
+      <Plants>(7,0)</Plants>
+      <Animals>(6,0)</Animals>
+      <Crafting>(0,0)</Crafting>
+      <Artistic>(1,0)</Artistic>
+      <Medicine>(6,0)</Medicine>
+      <Social>(9,0)</Social>
+      <Intellectual>(0,0)</Intellectual>
+    </skills>
+    <traits>
+      <KC_PoorCook>-1</KC_PoorCook>
+    </traits>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(72, 64, 64)</leftEyeColor>
+      <rightEyeColor>(72, 64, 64)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Akizuki</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Akizuki</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>120;081;236;182</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Teruzuki-->
+  <!--照月-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_AkizukiBase">
+    <defName>KC_Teruzuki</defName>
+    <hair>RCTeruzuki</hair>
+    <skinColor>(255, 228, 200)</skinColor>
+    <firstName>Teruzuki</firstName>
+    <nickName>Teruzuki</nickName>
+    <apparel>
+      <RC_TeruzukiBody/>
+      <RC_TeruzukiWig/>
+    </apparel>
+    <skills>
+      <Construction>(10,0)</Construction>
+      <Mining>(2,0)</Mining>
+      <Cooking>(6,0)</Cooking>
+      <Plants>(0,0)</Plants>
+      <Animals>(10,0)</Animals>
+      <Crafting>(6,0)</Crafting>
+      <Artistic>(7,0)</Artistic>
+      <Medicine>(5,0)</Medicine>
+      <Social>(3,0)</Social>
+      <Intellectual>(0,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(129, 126, 136)</leftEyeColor>
+      <rightEyeColor>(129, 126, 136)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Teruzuki</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Teruzuki</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>164;240;162;038</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Hatsuzuki-->
+  <!--初月-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_AkizukiBase">
+    <defName>KC_Hatsuzuki</defName>
+    <hair>RCHatsuzuki</hair>
+    <skinColor>(255, 227, 199)</skinColor>
+    <firstName>Hatsuzuki</firstName>
+    <nickName>Hatsuzuki</nickName>
+    <apparel>
+      <RC_HatsuzukiBody/>
+      <RC_HatsuzukiWig/>
+    </apparel>
+    <skills>
+      <Construction>(9,0)</Construction>
+      <Mining>(0,0)</Mining>
+      <Cooking>(1,0)</Cooking>
+      <Plants>(6,0)</Plants>
+      <Animals>(8,0)</Animals>
+      <Crafting>(6,0)</Crafting>
+      <Artistic>(3,0)</Artistic>
+      <Medicine>(0,0)</Medicine>
+      <Social>(2,0)</Social>
+      <Intellectual>(9,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(218, 201, 160)</leftEyeColor>
+      <rightEyeColor>(218, 201, 160)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Hatsuzuki</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Hatsuzuki</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>264;158;202;057</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef>
+    <defName>KC_ShipGirlGene</defName>
+    <label>Ship girl</label>
+    <description>Ship girl gene</description>
+    <iconPath>UI/Icons/Genes/Kancolle</iconPath>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>9</biostatMet>
+    <statOffsets>
+      <CarryingCapacity>100</CarryingCapacity>
+      <PawnBeauty>1</PawnBeauty>
+      <IncomingDamageFactor>-0.9</IncomingDamageFactor>
+      <PainShockThreshold>2</PainShockThreshold>
+    </statOffsets>
+  </GeneDef>
+
+  <XenotypeDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>KC_ShipGirl</defName>
+    <label>Ship girl</label>
+    <description>Ship girls are girls who have inherited the souls of warships and were born to fight against the Abyssal Fleet that ravages the seas.</description>
+    <descriptionShort>Ship girls are girls who have inherited the souls of warships and were born to fight against the Abyssal Fleet that ravages the seas.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>false</inheritable>
+    <genes>
+      <li>WoundHealing_SuperFast</li>
+      <li>Ears_Human</li>
+      <li>Hands_Human</li>
+      <li>Nose_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Body_Thin</li>
+      <li>Body_Standard</li>
+      <li>Superclotting</li>
+      <li>Deathless</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>Hair_Grayless</li>
+      <li>AptitudeStrong_Shooting</li>
+      <li>AptitudeStrong_Melee</li>
+      <li>Pain_Reduced</li>
+      <li>Robust</li>
+      <li>KC_ShipGirlGene</li>
+    </genes>
+  </XenotypeDef>
+
+
+</Defs>

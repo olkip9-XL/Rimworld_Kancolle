@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!--Japan ship-->
+  <KC_JapanShip.degreeDatas.0.label>日系战舰</KC_JapanShip.degreeDatas.0.label>
+  <KC_JapanShip.degreeDatas.0.description>日系战舰强调火力和速度，尤其是鱼雷，擅长夜战，但是防护较弱。</KC_JapanShip.degreeDatas.0.description>
+
+  <!--German ship-->
+  <KC_GermanShip.degreeDatas.0.label>德系战舰</KC_GermanShip.degreeDatas.0.label>
+  <KC_GermanShip.degreeDatas.0.description>德系战舰重视防护和航程，火炮性能均衡，擅长突袭和远洋作战。</KC_GermanShip.degreeDatas.0.description>
+
+  <!--KC_FubukiClass-->
+  <KC_FubukiClass.degreeDatas.0.label>吹雪型</KC_FubukiClass.degreeDatas.0.label>
+  <KC_FubukiClass.degreeDatas.0.description>吹雪型驱逐舰是IJN建造的一型大型驱逐舰，属于特一型驱逐舰。吹雪型驱逐舰有着比同时期其他同类舰艇更强大的火力的同时兼具良好航海性能，对当时的各国海军带来了很大的冲击。</KC_FubukiClass.degreeDatas.0.description>
+
+  <!--KC_AyanamiClass-->
+  <KC_AyanamiClass.degreeDatas.0.label>绫波型</KC_AyanamiClass.degreeDatas.0.label>
+  <KC_AyanamiClass.degreeDatas.0.description>绫波型驱逐舰是IJN建造的一型大型驱逐舰，属于特二型驱逐舰。绫波型驱逐舰由吹雪型驱逐舰改进而来，延续了吹雪型强大的火力和航海性能。</KC_AyanamiClass.degreeDatas.0.description>
+
+  <!--KC_AkatsukiClass-->
+  <KC_AkatsukiClass.degreeDatas.0.label>晓型</KC_AkatsukiClass.degreeDatas.0.label>
+  <KC_AkatsukiClass.degreeDatas.0.description>晓型驱逐舰是IJN建造的一型大型驱逐舰，属于特三型驱逐舰。晓型驱逐舰是吹雪型驱逐舰改型的最后一型，也是外观变化最大的一型。相较前型，晓型驱逐舰主要是优化了舰体设计和舰载设备，增强了航海稳定性。</KC_AkatsukiClass.degreeDatas.0.description>
+
+  <!--KC_AkizukiClass-->
+  <KC_AkizukiClass.degreeDatas.0.label>秋月型</KC_AkizukiClass.degreeDatas.0.label>
+  <KC_AkizukiClass.degreeDatas.0.description>秋月型是专门为防空而设计的驱逐舰，属于乙型驱逐舰，拥有强大的高射火力和优秀的防空能力。秋月型的主要职责是保护主力舰队免受敌方自空中的攻击，所以其搭载的鱼雷武器相对较少。</KC_AkizukiClass.degreeDatas.0.description>
+
+  <!--KC_KagerouClass-->
+  <KC_KagerouClass.degreeDatas.0.label>阳炎型</KC_KagerouClass.degreeDatas.0.label>
+  <KC_KagerouClass.degreeDatas.0.description>阳炎型驱逐舰是IJN建造的主力驱逐舰，属于甲型驱逐舰，是数量最多的一型驱逐舰。阳炎型驱逐舰在火力、机动和适航性方面都十分均衡，是集各型驱逐舰之大成的一型。</KC_KagerouClass.degreeDatas.0.description>
+
+  <!--KC_KamikazeClass-->
+  <KC_KamikazeClass.degreeDatas.0.label>神风型</KC_KamikazeClass.degreeDatas.0.label>
+  <KC_KamikazeClass.degreeDatas.0.description>神风型驱逐舰是IJN建造的早期驱逐舰。虽然神风型驱逐舰有着火力和防卫不足的缺点，但是其高速和机动性弥补了这些不足。</KC_KamikazeClass.degreeDatas.0.description>
+
+  <!--KC_ShimakazeClass-->
+  <KC_ShimakazeClass.degreeDatas.0.label>岛风型</KC_ShimakazeClass.degreeDatas.0.label>
+  <KC_ShimakazeClass.degreeDatas.0.description>岛风型驱逐舰是IJN建造的一型实验型驱逐舰，以极高的航速和超强的鱼雷火力著称。岛风型的设计极具突破性，但是由于造价高昂，仅建造了一艘岛风号，被称为海上传奇。</KC_ShimakazeClass.degreeDatas.0.description>
+
+  <!--KC_ShiratsuyuClass-->
+  <KC_ShiratsuyuClass.degreeDatas.0.label>白露型</KC_ShiratsuyuClass.degreeDatas.0.label>
+  <KC_ShiratsuyuClass.degreeDatas.0.description>白露型驱逐舰是IJN建造的一型驱逐舰，由吹雪型改进而来。白露型本为初春型，但初春型存在复元性不足的问题，彻底重新设计后改为白露型。</KC_ShiratsuyuClass.degreeDatas.0.description>
+
+  <!--KC_Type1934-->
+  <KC_Type1934.degreeDatas.0.label>1934型</KC_Type1934.degreeDatas.0.label>
+  <KC_Type1934.degreeDatas.0.description>1934型驱逐舰是纳粹德国建造的一型早期驱逐舰。1934型驱逐舰追求高航速和火力，但是由于经验不足，存在不少技术性和适航性的问题。</KC_Type1934.degreeDatas.0.description>
+
+
+</LanguageData>

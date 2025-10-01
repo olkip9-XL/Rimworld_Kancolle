@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <KC_StartBuilding>Start building</KC_StartBuilding>
+
+  <KC_NotEnoughMat>Not enough materials</KC_NotEnoughMat>
+  
+  <KC_GachaSuccess>Order received, {0} will arrive in 2~3 days.</KC_GachaSuccess>
+ 
+  <KC_NoMorePawns>No more pawns.</KC_NoMorePawns>
+
+  <KC_PawnArrived>{0} has arrived the colony!</KC_PawnArrived>
+
+  <KC_PawnArriveLable>Arrival</KC_PawnArriveLable>
+
+  <KC_CallKancolle>Build a ship girl</KC_CallKancolle>
+
+  <KC_ToggleTurret>Auto fire</KC_ToggleTurret>
+
+  <KC_ToggleTurretDesc>Toggle anti-aircraft turret auto fire</KC_ToggleTurretDesc>
+
+  <!--settings-->
+
+  <KC_Hourlie>Hourly voice</KC_Hourlie>
+
+  <KC_Null>None</KC_Null>
+  
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>KC_Colonist</defName>
+    <label>Ship girl</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>350~600</apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0</techHediffsChance>
+    <initialResistanceRange>13~21</initialResistanceRange>
+  </PawnKindDef>
+
+</Defs>

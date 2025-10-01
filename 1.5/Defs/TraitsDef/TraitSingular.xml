@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--Japan ship-->
+  <TraitDef>
+    <defName>KC_JapanShip</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Japanese ship</label>
+        <description>Japanese ships emphasize firepower and speed, especially torpedoes. They excel at night battles but have relatively weak protection.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+          <RangedCooldownFactor>0.05</RangedCooldownFactor>
+          <IncomingDamageFactor>0.05</IncomingDamageFactor>
+          <ShootingAccuracyOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.3</ShootingAccuracyOutdoorsDarkOffset>
+          <ShootingAccuracyIndoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.3</ShootingAccuracyIndoorsDarkOffset>
+          <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--German ship-->
+  <TraitDef>
+    <defName>KC_GermanShip</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>German ship</label>
+        <description>German ships emphasize protection and range, with balanced artillery performance. They excel at raids and long-range operations.</description>
+        <statOffsets>
+          <RangedCooldownFactor>-0.05</RangedCooldownFactor>
+          <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+          <MoveSpeed>-0.1</MoveSpeed>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+          <CarryingCapacity>20</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+
+
+
+  <!--KC_FubukiClass-->
+  <TraitDef>
+    <defName>KC_FubukiClass</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Fubuki Class</label>
+        <description>Fubuki-class destroyers were a type of large destroyer built by the IJN, classified as Type I destroyers. Fubuki-class possessed more powerful firepower than other contemporary destroyers, while also maintaining excellent seafaring performance, which greatly impacted the navies of other countries at the time.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <CarryingCapacity>80</CarryingCapacity>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+
+  <!--KC_AyanamiClass-->
+  <TraitDef>
+    <defName>KC_AyanamiClass</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Ayanami Class</label>
+        <description>Ayanami-class destroyers were a type of large destroyer built by the IJN, classified as Type II destroyers. The Ayanami-class were improved from the Fubuki-class, inheriting the powerful firepower and seafaring performance of the Fubuki-class.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <CarryingCapacity>100</CarryingCapacity>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--KC_AkatsukiClass-->
+  <TraitDef>
+    <defName>KC_AkatsukiClass</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Akatsuki Class</label>
+        <description>Akatsuki-class destroyers were a type of large destroyer built by the IJN, classified as Type III destroyers. Akatsuki-class is the final variant of the Fubuki-class and featured the most significant changes in appearance. Compared to previous types, Akatsuki-class mainly optimized hull design and onboard equipment, enhancing maritime stability.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <CarryingCapacity>100</CarryingCapacity>
+          <MoveSpeed>0.21</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--KC_AkizukiClass-->
+  <TraitDef>
+    <defName>KC_AkizukiClass</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Akizuki Class</label>
+        <description>Akizuki-class destroyers were specially designed for anti-aircraft purposes, classified as Type B destroyers, possessing powerful anti-aircraft firepower and excellent air defense capabilities. The main duty of Akizuki-class is to protect the main fleet from enemy air attacks, so they were equipped with relatively fewer torpedo weapons.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.3</AimingDelayFactor>
+          <CarryingCapacity>100</CarryingCapacity>
+          <MoveSpeed>0.12</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--KC_KagerouClass-->
+  <TraitDef>
+    <defName>KC_KagerouClass</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Kagerou Class</label>
+        <description>Kagerou-class destroyers were the main destroyers built by the IJN, classified as Type A destroyers, and were the most numerous type of destroyer. Kagerou-class destroyers were well-balanced in firepower, maneuverability, and seaworthiness, representing the culmination of various destroyer designs.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <CarryingCapacity>80</CarryingCapacity>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--KC_KamikazeClass-->
+  <TraitDef>
+    <defName>KC_KamikazeClass</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Kamikaze Class</label>
+        <description>Kamikaze-class destroyers were early destroyers built by the IJN. Although Kamikaze-class destroyers had shortcomings in firepower and defense, their high speed and maneuverability compensated for these weaknesses.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <CarryingCapacity>80</CarryingCapacity>
+          <MoveSpeed>0.23</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--KC_ShimakazeClass-->
+  <TraitDef>
+    <defName>KC_ShimakazeClass</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Shimakaze Class</label>
+        <description>Shimakaze-class destroyer is an experimental type built by the IJN, famous for the extremely high speed and exceptional torpedo firepower. The design of the Shimakaze-class is highly innovative, but due to its high cost, only one ship, Shimakaze, was constructed, making it a legend at sea.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.3</AimingDelayFactor>
+          <CarryingCapacity>60</CarryingCapacity>
+          <MoveSpeed>0.5</MoveSpeed>
+          <MeleeDodgeChance>0.2</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--KC_ShiratsuyuClass-->
+  <TraitDef>
+    <defName>KC_ShiratsuyuClass</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Shiratsuyu Class</label>
+        <description>Shiratsuyu-class destroyers were a type of destroyer built by the IJN, improved from the Fubuki-class. Shiratsuyu-class was originally designed as the Hatsuharu-class, but due to insufficient stability in the Hatsuharu-class, a complete redesign led to the Shiratsuyu-class.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <CarryingCapacity>100</CarryingCapacity>
+          <MoveSpeed>0.18</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--KC_Type1934-->
+  <TraitDef>
+    <defName>KC_Type1934</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Type 1934</label>
+        <description>Type 1934 destroyers were an early type of destroyer built by Nazi Germany. The Type 1934 destroyers pursued high speed and firepower, but due to lack of experience, they had many technical and seaworthiness issues.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <CarryingCapacity>80</CarryingCapacity>
+          <MoveSpeed>0.21</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  
+  
+
+</Defs>

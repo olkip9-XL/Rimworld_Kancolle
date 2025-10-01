@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>RimcolleTech</defName>
+    <label>Fleet girls</label>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build Fleet girls costumes and weapons.</description>
+    <baseCost>3000</baseCost>
+    <prerequisites>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>RimcolleResearchTab</tab>
+	<researchViewX>1</researchViewX>
+	<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+
+</Defs>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>KC_DevMat</defName>
+    <label>Development materials</label>
+    <description>Materials used for ship construction and equipment development.</description>
+    <graphicData>
+      <texPath>Things/Item/Misc/DevMats</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <tradeability>All</tradeability>
+    <techLevel>Ultra</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

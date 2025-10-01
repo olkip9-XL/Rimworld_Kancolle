@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--Hibiki-->
+  <TraitDef>
+    <defName>KC_Hibiki</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Phoenix</label>
+        <description>Hibiki is one of the few IJN destroyers that survived the war. She missed several key battles due to returning to port for repairs, which is the main reason for her survival. After the war, she was transferred to the Soviet Union as compensation and renamed "Верный".</description>
+        <statOffsets>
+          <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+          <MeleeDodgeChance>0.2</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--Ecorter-->
+  <TraitDef>
+    <defName>KC_Ecorter</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Fleet Escort</label>
+        <description>{PAWN_nameDef} mainly undertakes escort duties in the fleet.</description>
+        <statOffsets>
+          <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--cooking skill-->
+  <TraitDef>
+    <defName>KC_PoorCook</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Chef</label>
+        <description>{PAWN_nameDef} is very good at cooking, and the food she makes will never be poisonous.</description>
+        <degree>2</degree>
+        <statOffsets>
+          <CookSpeed>0.5</CookSpeed>
+        </statOffsets>
+        <statFactors>
+          <FoodPoisonChance>0</FoodPoisonChance>
+        </statFactors>
+      </li>
+      <li>
+        <label>Good Cook</label>
+        <description>{PAWN_nameDef} is good at cooking, she cooks quickly and well.</description>
+        <degree>1</degree>
+        <statOffsets>
+          <CookSpeed>0.15</CookSpeed>
+          <FoodPoisonChance>-0.2</FoodPoisonChance>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Poor Cook</label>
+        <description>{PAWN_nameDef}'s cooking skills are very low, and she cannot make good dishes.</description>
+        <degree>-1</degree>
+        <statOffsets>
+          <CookSpeed>-0.15</CookSpeed>
+          <FoodPoisonChance>0.2</FoodPoisonChance>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Dark Cuisine</label>
+        <description>{PAWN_nameDef}'s cooking skills are so poor that the food she makes always causes food poisoning.</description>
+        <degree>-2</degree>
+        <statOffsets>
+          <CookSpeed>-0.3</CookSpeed>
+          <FoodPoisonChance>0.8</FoodPoisonChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--鬼神-->
+  <TraitDef>
+    <defName>KC_Ayanami</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>The Demon of Solomon</label>
+        <description>{PAWN_nameDef} earned the title "The Demon of Solomon" due to her outstanding performance in the Third Battle of the Solomon.</description>
+        <statOffsets>
+          <MeleeHitChance>0.15</MeleeHitChance>
+          <MeleeDodgeChance>0.1</MeleeDodgeChance>
+          <RangedCooldownFactor>-0.1</RangedCooldownFactor>
+          <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--傲娇-->
+  <TraitDef>
+    <defName>KC_Tsundere</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Tsundere</label>
+        <description>{PAWN_nameDef} appears cold and arrogant on the surface, but actually cares deeply about others.</description>
+        <statOffsets>
+          <SocialImpact>-0.1</SocialImpact>
+          <PawnBeauty>0.5</PawnBeauty>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--新型高温高压罐-->
+  <TraitDef>
+    <defName>KC_HighTempHighPressure</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>New model HTHP Boiler</label>
+        <description>{PAWN_nameDef} is equipped with a new model high temperature high pressure boiler, which can provide higher power output.</description>
+        <statOffsets>
+          <ComfyTemperatureMax>50</ComfyTemperatureMax>
+          <MoveSpeed>0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--风暴中的时津风-->
+  <TraitDef>
+    <defName>KC_Tokikaze</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Tokikaze in the Storm</label>
+        <description>The first Tokikaze ran aground in 1918 due to a storm, leaving only part of the boiler and removed weapons. However, she was rebuilt under the name of "major overhaul" and survived the war. The reborn Tokikaze was extremely lucky, being preserved as a training ship after the war, until she sank in 1948 due to another storm. She was born in the storm, and departed in the storm.</description>
+        <statOffsets>
+          <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--Yukikaze-->
+  <TraitDef>
+    <defName>KC_Yukikaze</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Yukikaze of Wu</label>
+        <description>Yukikaze is the 8th ship of the Kagerou-class destroyers, renowned in history as a distinguished and exceptionally lucky ship. Yukikaze participated in more than 16 operations and achieved remarkable results, surviving the war almost unscathed. After the war, she was transferred to the Republic of China as compensation and renamed "Danyang".\n\n--I will not sink!</description>
+        <statOffsets>
+          <MeleeDodgeChance>0.4</MeleeDodgeChance>
+          <MoveSpeed>0.1</MoveSpeed>
+          <IncomingDamageFactor>-0.4</IncomingDamageFactor>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--海上传奇-->
+  <TraitDef>
+    <defName>KC_SeaLegend</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Sea Legend</label>
+        <description>{PAWN_nameDef} is a legendary ship, she has left a brilliant mark in the history.</description>
+        <statOffsets>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+          <PainShockThreshold>0.2</PainShockThreshold>
+          <PawnBeauty>1</PawnBeauty>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--Yudachi-->
+  <TraitDef>
+    <defName>KC_Yudachi</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Nightmare of Solomon</label>
+        <description>Yudachi is the 4th ship of the Shiratsuyu-class destroyers. In the Battle of Guadalcanal, Yudachi was renowned as the "Nightmare of Solomon" for her brave combat performance and impressive achievements.\n\n--poi？</description>
+        <statOffsets>
+          <RangedCooldownFactor>-0.2</RangedCooldownFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!--Shigure-->
+  <TraitDef>
+    <defName>KC_Shigure</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>Shigure of Sasebo</label>
+        <description>Shigure is the second ship of the Shiratsuyu-class destroyers, a destroyer with a long history marked by the trials of war, and is known as the "Lucky Ship". The experience of witnessing the sinking of her comrades many times has resulted in her somewhat melancholic personality. Although Shigure was actually born in Yokosuka, she has become a symbol of the Sasebo Naval District.\n\n--The rain will clear eventually.</description>
+        <statOffsets>
+          <MentalBreakThreshold>-0.3</MentalBreakThreshold>
+          <PainShockThreshold>0.3</PainShockThreshold>
+          <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+
+
+</Defs>

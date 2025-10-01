@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--1934 级驱逐舰-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+ParentName="KC_DestroyerBase" Name="KC_Type1934Base" Abstract="true">
+    <equipment>
+      <TwinGunMount/>
+    </equipment>
+    <skills>
+      <Shooting>(12,2)</Shooting>
+      <Melee>(6,1)</Melee>
+    </skills>
+    <abilities>
+      <li>KC_TopedoFireQuadruple</li>
+    </abilities>
+    <traits Inherit="False">
+      <KC_GermanShip/>
+      <KC_Type1934/>
+    </traits>
+    <relations>
+      <Sibling>KC_ZOne</Sibling>
+    </relations>
+    <comps>
+      <li Class="FPG_Kancolle.CompProperties_ShipGirlTurret">
+        <turretDef>Gun_25mmSingleAATurret</turretDef>
+        <angleOffset>-90</angleOffset>
+        <turretIcon>UI/Icons/Turret/25mmSingleAA</turretIcon>
+      </li>
+    </comps>
+    <tags>
+      <li>Type1934</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+  <!--Z1 Leberecht Maass-->
+  <!--莱贝雷希特·马斯-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_Type1934Base">
+    <defName>KC_ZOne</defName>
+    <hair>RCZone</hair>
+    <skinColor>(255, 252, 248)</skinColor>
+    <firstName>Z1</firstName>
+    <nickName>Z1</nickName>
+    <apparel>
+      <RC_ZoneBody/>
+      <RC_ZoneWig/>
+    </apparel>
+    <skills>
+      <Construction>(0,0)</Construction>
+      <Mining>(8,0)</Mining>
+      <Cooking>(9,0)</Cooking>
+      <Plants>(2,0)</Plants>
+      <Animals>(5,0)</Animals>
+      <Crafting>(2,0)</Crafting>
+      <Artistic>(6,0)</Artistic>
+      <Medicine>(8,0)</Medicine>
+      <Social>(6,0)</Social>
+      <Intellectual>(1,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(203, 242, 233)</leftEyeColor>
+      <rightEyeColor>(203, 242, 233)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Z1</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Z1</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>135;134;146;116</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+  <!--Z3 Max Schultz-->
+  <!--马克斯·舒尔茨-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_Type1934Base">
+    <defName>KC_ZThree</defName>
+    <hair>RCZthree</hair>
+    <skinColor>(253, 239, 226)</skinColor>
+    <firstName>Z3</firstName>
+    <nickName>Z3</nickName>
+    <apparel>
+      <RC_ZthreeBody/>
+      <RC_ZthreeWig/>
+    </apparel>
+    <skills>
+      <Construction>(1,0)</Construction>
+      <Mining>(3,0)</Mining>
+      <Cooking>(0,0)</Cooking>
+      <Plants>(7,0)</Plants>
+      <Animals>(9,0)</Animals>
+      <Crafting>(7,0)</Crafting>
+      <Artistic>(7,0)</Artistic>
+      <Medicine>(7,0)</Medicine>
+      <Social>(6,0)</Social>
+      <Intellectual>(8,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(215, 163, 153)</leftEyeColor>
+      <rightEyeColor>(215, 163, 153)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Z3</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_KC_Voices/Z3</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>058;042;204;256</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+</Defs>

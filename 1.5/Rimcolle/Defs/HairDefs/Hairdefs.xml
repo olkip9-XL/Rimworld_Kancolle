@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <label>RC Shimakaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Shimakaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCShimakaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Amatsukaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Amatsukaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCAmatsukaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Tokitsukaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Tokitsukaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCTokitsukaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Yukikaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Yukikaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCYukikaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Urakaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Urakaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCUrakaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Isokaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Isokaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCIsokaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Hamakaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Hamakaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCHamakaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Tanikaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Tanikaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCTanikaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Akatsuki</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Akatsuki</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCAkatsuki</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Hibiki</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Hibiki</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCHibiki</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Shiratsuyu</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Shiratsuyu</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCShiratsuyu</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Yudachi</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Yudachi</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCYudachi</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Murasame</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Murasame</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCMurasame</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Shigure</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Shigure</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCShigure</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Harusame</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Harusame</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCHarusame</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Murakumo</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Murakumo</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCMurakumo</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Akizuki</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Akizuki</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCAkizuki</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Teruzuki</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Teruzuki</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCTeruzuki</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Hatsuzuki</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Hatsuzuki</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCHatsuzuki</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Fubuki</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Fubuki</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCFubuki</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Ayanami</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Ayanami</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCAyanami</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Ikazuchi</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Ikazuchi</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCIkazuchi</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Inazuma</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Inazuma</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCInazuma</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Z1</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Z1</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCZone</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Z3</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Z3</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCZthree</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Kamikaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Kamikaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCKamikaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Harukaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Harukaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCHarukaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Asakaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Asakaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCAsakaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>RC Matsukaze</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Hair/Matsukaze</texPath>
+	<category>RCHairCategory</category>
+    <defName>RCMatsukaze</defName>
+		<styleTags>
+			<li>kanmusu</li>
+		</styleTags>
+  </HairDef>
+  
+</Defs>

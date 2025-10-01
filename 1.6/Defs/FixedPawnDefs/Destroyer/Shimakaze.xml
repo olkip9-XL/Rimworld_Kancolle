@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--Shimakaze-->
+  <!--岛风-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+		ParentName="KC_DestroyerBase">
+    <defName>KC_Shimakaze</defName>
+    <hair>RCShimakaze</hair>
+    <skinColor>(253, 244, 221)</skinColor>
+    <firstName>Shimakaze</firstName>
+    <nickName>Shimakaze</nickName>
+    <equipment>
+      <TwinGunMount/>
+    </equipment>
+    <apparel>
+      <RC_ShimakazeBody/>
+      <RC_ShimakazeWig/>
+    </apparel>
+    <skills>
+      <Shooting>(8,2)</Shooting>
+      <Melee>(6,1)</Melee>
+      <Construction>(1,0)</Construction>
+      <Mining>(7,0)</Mining>
+      <Cooking>(3,0)</Cooking>
+      <Plants>(9,0)</Plants>
+      <Animals>(7,0)</Animals>
+      <Crafting>(0,0)</Crafting>
+      <Artistic>(1,0)</Artistic>
+      <Medicine>(3,0)</Medicine>
+      <Social>(2,0)</Social>
+      <Intellectual>(0,0)</Intellectual>
+    </skills>
+    <abilities>
+      <li>KC_TopedoFireQuintuple</li>
+    </abilities>
+    <traits>
+      <KC_ShimakazeClass/>
+      <KC_SeaLegend/>
+    </traits>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(94, 94, 93)</leftEyeColor>
+      <rightEyeColor>(94, 94, 93)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Shimakaze</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Shimakaze</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>Shimakaze</li>
+      <li>108;127;269;116</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+</Defs>

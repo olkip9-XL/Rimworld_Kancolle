@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--神风级驱逐舰-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+ParentName="KC_DestroyerBase" Name="KC_KamikazeBase" Abstract="true">
+    <equipment>
+      <SingleGunMount/>
+    </equipment>
+    <skills>
+      <Shooting>(8,2)</Shooting>
+      <Melee>(4,1)</Melee>
+    </skills>
+    <abilities>
+      <li>KC_TopedoFireDouble</li>
+    </abilities>
+    <traits>
+      <KC_KamikazeClass/>
+    </traits>
+    <relations>
+      <Sibling>KC_Kamikaze</Sibling>
+    </relations>
+    <comps>
+      <li Class="FPG_Kancolle.CompProperties_ShipGirlTurret">
+        <turretDef>Gun_25mmSingleAATurret</turretDef>
+        <angleOffset>-90</angleOffset>
+        <turretIcon>UI/Icons/Turret/25mmSingleAA</turretIcon>
+      </li>
+    </comps>
+    <tags>
+      <li>Kamikaze</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Kamikaze-->
+  <!--神风-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_KamikazeBase">
+    <defName>KC_Kamikaze</defName>
+    <hair>RCKamikaze</hair>
+    <skinColor>(254, 231, 214)</skinColor>
+    <firstName>Kamikaze</firstName>
+    <nickName>Kamikaze</nickName>
+    <apparel>
+      <RC_KamikazeBody/>
+      <RC_KamikazeWig/>
+    </apparel>
+    <skills>
+      <Construction>(5,0)</Construction>
+      <Mining>(8,0)</Mining>
+      <Cooking>(3,0)</Cooking>
+      <Plants>(7,0)</Plants>
+      <Animals>(9,0)</Animals>
+      <Crafting>(4,0)</Crafting>
+      <Artistic>(8,0)</Artistic>
+      <Medicine>(1,0)</Medicine>
+      <Social>(0,0)</Social>
+      <Intellectual>(6,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(160, 113, 132)</leftEyeColor>
+      <rightEyeColor>(160, 113, 132)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Kamikaze</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Kamikaze</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>123;136;073;200</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Asakaze-->
+  <!--朝风-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_KamikazeBase">
+    <defName>KC_Asakaze</defName>
+    <hair>RCAsakaze</hair>
+    <skinColor>(255, 232, 213)</skinColor>
+    <firstName>Asakaze</firstName>
+    <nickName>Asakaze</nickName>
+    <apparel>
+      <RC_AsakazeBody/>
+      <RC_AsakazeWig/>
+    </apparel>
+    <skills>
+      <Construction>(1,0)</Construction>
+      <Mining>(8,0)</Mining>
+      <Cooking>(8,0)</Cooking>
+      <Plants>(4,0)</Plants>
+      <Animals>(0,0)</Animals>
+      <Crafting>(6,0)</Crafting>
+      <Artistic>(1,0)</Artistic>
+      <Medicine>(7,0)</Medicine>
+      <Social>(8,0)</Social>
+      <Intellectual>(5,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(128, 173, 229)</leftEyeColor>
+      <rightEyeColor>(128, 173, 229)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Asakaze</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Asakaze</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>155;269;172;103</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Harukaze-->
+  <!--春风-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_KamikazeBase">
+    <defName>KC_Harukaze</defName>
+    <hair>RCHarukaze</hair>
+    <skinColor>(255, 238, 223)</skinColor>
+    <firstName>Harukaze</firstName>
+    <nickName>Harukaze</nickName>
+    <apparel>
+      <RC_HarukazeBody/>
+      <RC_HarukazeWig/>
+    </apparel>
+    <skills>
+      <Construction>(7,0)</Construction>
+      <Mining>(7,0)</Mining>
+      <Cooking>(3,0)</Cooking>
+      <Plants>(5,0)</Plants>
+      <Animals>(10,0)</Animals>
+      <Crafting>(9,0)</Crafting>
+      <Artistic>(2,0)</Artistic>
+      <Medicine>(6,0)</Medicine>
+      <Social>(9,0)</Social>
+      <Intellectual>(5,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(192, 60, 70)</leftEyeColor>
+      <rightEyeColor>(192, 60, 70)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Harukaze</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Harukaze</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>037;097;092;232</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Matsukaze-->
+  <!--松风-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_KamikazeBase">
+    <defName>KC_Matsukaze</defName>
+    <hair>RCMatsukaze</hair>
+    <skinColor>(254, 234, 214)</skinColor>
+    <firstName>Matsukaze</firstName>
+    <nickName>Matsukaze</nickName>
+    <apparel>
+      <RC_MatsukazeBody/>
+      <RC_MatsukazeWig/>
+    </apparel>
+    <skills>
+      <Construction>(7,0)</Construction>
+      <Mining>(6,0)</Mining>
+      <Cooking>(0,0)</Cooking>
+      <Plants>(1,0)</Plants>
+      <Animals>(9,0)</Animals>
+      <Crafting>(6,0)</Crafting>
+      <Artistic>(4,0)</Artistic>
+      <Medicine>(0,0)</Medicine>
+      <Social>(9,0)</Social>
+      <Intellectual>(9,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(167, 226, 179)</leftEyeColor>
+      <rightEyeColor>(167, 226, 179)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Matsukaze</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Matsukaze</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>074;218;075;075</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+</Defs>

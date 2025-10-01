@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--==========================Childhoods==========================-->
+
+  <BackstoryDef  Name="KCChildhoodBase" Abstract="True">
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>KC_Childhood</li>
+    </spawnCategories>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>None</li>
+    </requiredWorkTags>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef ParentName="KCChildhoodBase">
+    <defName>KC_AverageKanmusume</defName>
+    <title>average ship girl</title>
+    <titleShort>ship girl</titleShort>
+    <description>{PAWN_nameDef} is a ship girl.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>1</Social>
+      <Shooting>5</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <identifier>KC_AverageKanmusume</identifier>
+  </BackstoryDef>
+
+
+  <!--=====================================Adulthoods================================-->
+
+  <!--Base-->
+  <BackstoryDef Name="KCAdulthoodBase" Abstract="True">
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>KC_Adulthood</li>
+    </spawnCategories>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>None</li>
+    </requiredWorkTags>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!--DD-->
+  <BackstoryDef ParentName="KCAdulthoodBase">
+    <defName>KC_Destroyer</defName>
+    <title>Destroyer</title>
+    <titleShort>Destroyer</titleShort>
+    <description>{PAWN_nameDef}'s ship class is Destroyer. The destroyers are the most versatile type in the fleet, their main duties are fleet escort and anti-submarine warfare, and also undertake certain air defense tasks. They are also equipped with torpedoes and are able to launch raids against enemy main fleets.</description>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <identifier>KC_Destroyer</identifier>
+  </BackstoryDef>
+
+
+
+</Defs>

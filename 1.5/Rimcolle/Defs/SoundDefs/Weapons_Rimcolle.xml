@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+　　<SoundDef>
+    <defName>SoundsTwinGunMount</defName>
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/TwinGunMount</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>30~35</volumeRange>      
+        <pitchRange>0.9152174~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  
+  
+　　<SoundDef>
+    <defName>SoundsTwinGunMountModelBKai</defName>
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/TwinGunMountModelBKai</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>30~35</volumeRange>      
+        <pitchRange>0.9152174~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  
+
+　　<SoundDef>
+    <defName>SoundsTwinHighAngleGunMount</defName>
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/TwinHighAngleGunMount</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>15~25</volumeRange>      
+        <pitchRange>0.9152174~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+	
+	
+	
+　　<SoundDef>
+    <defName>SoundsHighAngleGunMount</defName>
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/HighAngleGunMount</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>30~35</volumeRange>      
+        <pitchRange>0.9152174~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+	
+	
+	
+　　<SoundDef>
+    <defName>SoundsSingleGunMount</defName>
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/SingleGunMount</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>30~35</volumeRange>      
+        <pitchRange>0.9152174~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+	
+	
+	
+　　<SoundDef>
+    <defName>SoundsTripleAutocannonMount</defName>
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/TripleAutocannonMount</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>15~25</volumeRange>      
+        <pitchRange>0.9152174~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+	
+	
+	
+　　<SoundDef>
+    <defName>SoundsTorpedo</defName>
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/Torpedo</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>10~15</volumeRange>      
+        <pitchRange>0.9152174~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+	
+	
+	
+　　<SoundDef>
+    <defName>SoundsBakurai</defName>
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/Bakurai</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>15~20</volumeRange>      
+        <pitchRange>0.9152174~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+</Defs>

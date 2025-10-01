@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--白露级驱逐舰-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+ParentName="KC_DestroyerBase" Name="KC_ShiratsuyuBase" Abstract="true">
+    <equipment>
+      <TwinGunMount/>
+    </equipment>
+    <skills>
+      <Shooting>(12,2)</Shooting>
+      <Melee>(6,1)</Melee>
+    </skills>
+    <abilities>
+      <li>KC_TopedoFireQuadruple</li>
+    </abilities>
+    <traits>
+      <KC_ShiratsuyuClass/>
+    </traits>
+    <relations>
+      <Sibling>KC_Shiratsuyu</Sibling>
+    </relations>
+    <comps>
+      <li Class="FPG_Kancolle.CompProperties_ShipGirlTurret">
+        <turretDef>Gun_25mmSingleAATurret</turretDef>
+        <angleOffset>-90</angleOffset>
+        <turretIcon>UI/Icons/Turret/25mmSingleAA</turretIcon>
+      </li>
+    </comps>
+    <tags>
+      <li>Shiratsuyu</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Shiratsuyu-->
+  <!--白露-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_ShiratsuyuBase">
+    <defName>KC_Shiratsuyu</defName>
+    <hair>RCShiratsuyu</hair>
+    <skinColor>(255, 242, 227)</skinColor>
+    <firstName>Shiratsuyu</firstName>
+    <nickName>Shiratsuyu</nickName>
+    <apparel>
+      <RC_ShiratsuyuBody/>
+      <RC_ShiratsuyuWig/>
+    </apparel>
+    <skills>
+      <Construction>(8,0)</Construction>
+      <Mining>(0,0)</Mining>
+      <Cooking>(5,0)</Cooking>
+      <Plants>(10,0)</Plants>
+      <Animals>(8,0)</Animals>
+      <Crafting>(0,0)</Crafting>
+      <Artistic>(5,0)</Artistic>
+      <Medicine>(5,0)</Medicine>
+      <Social>(4,0)</Social>
+      <Intellectual>(6,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(165, 99, 42)</leftEyeColor>
+      <rightEyeColor>(165, 99, 42)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Shiratsuyu</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Shiratsuyu</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>291;128;131;134</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+  <!--Harusame-->
+  <!--春雨-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_ShiratsuyuBase">
+    <defName>KC_Harusame</defName>
+    <hair>RCHarusame</hair>
+    <skinColor>(252, 243, 226)</skinColor>
+    <firstName>Harusame</firstName>
+    <nickName>Harusame</nickName>
+    <apparel>
+      <RC_HarusameBody/>
+      <RC_HarusameWig/>
+    </apparel>
+    <skills>
+      <Construction>(10,0)</Construction>
+      <Mining>(8,0)</Mining>
+      <Cooking>(6,0)</Cooking>
+      <Plants>(4,0)</Plants>
+      <Animals>(3,0)</Animals>
+      <Crafting>(1,0)</Crafting>
+      <Artistic>(2,0)</Artistic>
+      <Medicine>(4,0)</Medicine>
+      <Social>(9,0)</Social>
+      <Intellectual>(5,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(168, 59, 71)</leftEyeColor>
+      <rightEyeColor>(168, 59, 71)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Harusame</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Harusame</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>260;148;263;234</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Yudachi-->
+  <!--夕立-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_ShiratsuyuBase">
+    <defName>KC_Yudachi</defName>
+    <hair>RCYudachi</hair>
+    <skinColor>(255, 243, 228)</skinColor>
+    <firstName>Yudachi</firstName>
+    <nickName>Yudachi</nickName>
+    <apparel>
+      <RC_YudachiBody/>
+      <RC_YudachiWig/>
+    </apparel>
+    <skills>
+      <Construction>(3,0)</Construction>
+      <Mining>(5,0)</Mining>
+      <Cooking>(2,0)</Cooking>
+      <Plants>(9,0)</Plants>
+      <Animals>(4,0)</Animals>
+      <Crafting>(0,0)</Crafting>
+      <Artistic>(2,0)</Artistic>
+      <Medicine>(3,0)</Medicine>
+      <Social>(3,0)</Social>
+      <Intellectual>(9,0)</Intellectual>
+    </skills>
+    <traits>
+      <KC_Yudachi/>
+    </traits>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(98, 176, 143)</leftEyeColor>
+      <rightEyeColor>(98, 176, 143)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Yudachi</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Yudachi</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>226;154;225;201</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Shigure-->
+  <!--时雨-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_ShiratsuyuBase">
+    <defName>KC_Shigure</defName>
+    <hair>RCShigure</hair>
+    <skinColor>(254, 242, 226)</skinColor>
+    <firstName>Shigure</firstName>
+    <nickName>Shigure</nickName>
+    <apparel>
+      <RC_ShigureBody/>
+      <RC_ShigureWig/>
+    </apparel>
+    <skills>
+      <Construction>(6,0)</Construction>
+      <Mining>(5,0)</Mining>
+      <Cooking>(9,0)</Cooking>
+      <Plants>(8,0)</Plants>
+      <Animals>(2,0)</Animals>
+      <Crafting>(3,0)</Crafting>
+      <Artistic>(1,0)</Artistic>
+      <Medicine>(8,0)</Medicine>
+      <Social>(9,0)</Social>
+      <Intellectual>(5,0)</Intellectual>
+    </skills>
+    <traits>
+      <KC_Shigure/>
+      <NaturalMood>-1</NaturalMood>
+    </traits>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(122, 169, 202)</leftEyeColor>
+      <rightEyeColor>(122, 169, 202)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Shigure</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Shigure</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>177;072;223;118</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+  <!--Murasame-->
+  <!--村雨-->
+  <FixedPawnGenerate.FixedPawnDef MayRequire="Yoseisan.Rimcolle"
+    ParentName="KC_ShiratsuyuBase">
+    <defName>KC_Murasame</defName>
+    <hair>RCMurasame</hair>
+    <skinColor>(255, 243, 226)</skinColor>
+    <firstName>Murasame</firstName>
+    <nickName>Murasame</nickName>
+    <apparel>
+      <RC_MurasameBody/>
+      <RC_MurasameWig/>
+    </apparel>
+    <skills>
+      <Construction>(4,0)</Construction>
+      <Mining>(9,0)</Mining>
+      <Cooking>(10,0)</Cooking>
+      <Plants>(4,0)</Plants>
+      <Animals>(7,0)</Animals>
+      <Crafting>(2,0)</Crafting>
+      <Artistic>(8,0)</Artistic>
+      <Medicine>(1,0)</Medicine>
+      <Social>(10,0)</Social>
+      <Intellectual>(7,0)</Intellectual>
+    </skills>
+    <facialAnimationProps MayRequire="Nals.FacialAnimation">
+      <lid>LidNormal</lid>
+      <leftEyeColor>(197, 109, 103)</leftEyeColor>
+      <rightEyeColor>(197, 109, 103)</rightEyeColor>
+    </facialAnimationProps>
+    <comps>
+      <li Class="FixedPawnGenerate.CompProperties_Tachie">
+        <texture>KC_Portrait/Murasame</texture>
+      </li>
+      <li Class="FixedPawnGenerate.CompProperties_PawnVoice">
+        <clipsPath>Pawn/KC_Voices/Murasame</clipsPath>
+      </li>
+    </comps>
+    <tags>
+      <li>216;268;057;200</li>
+    </tags>
+  </FixedPawnGenerate.FixedPawnDef>
+
+
+
+</Defs>

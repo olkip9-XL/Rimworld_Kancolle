@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--KC_Akatsuki-->
+	<KC_Akatsuki.firstName>晓</KC_Akatsuki.firstName>
+	<KC_Akatsuki.nickName>晓</KC_Akatsuki.nickName>
+	<KC_Akatsuki.lastName>驱逐舰</KC_Akatsuki.lastName>
+
+	<!--KC_Hibiki-->
+	<KC_Hibiki.firstName>响</KC_Hibiki.firstName>
+	<KC_Hibiki.nickName>响</KC_Hibiki.nickName>
+	<KC_Hibiki.lastName>驱逐舰</KC_Hibiki.lastName>
+
+	<!-- KC_Ikazuchi -->
+	<KC_Ikazuchi.firstName>雷</KC_Ikazuchi.firstName>
+	<KC_Ikazuchi.nickName>雷</KC_Ikazuchi.nickName>
+	<KC_Ikazuchi.lastName>驱逐舰</KC_Ikazuchi.lastName>
+
+	<!-- Inazuma -->
+	<KC_Inazuma.firstName>电</KC_Inazuma.firstName>
+	<KC_Inazuma.nickName>电</KC_Inazuma.nickName>
+	<KC_Inazuma.lastName>驱逐舰</KC_Inazuma.lastName>
+
+	<!-- KC_Akizuki -->
+	<KC_Akizuki.firstName>秋月</KC_Akizuki.firstName>
+	<KC_Akizuki.nickName>秋月</KC_Akizuki.nickName>
+	<KC_Akizuki.lastName>驱逐舰</KC_Akizuki.lastName>
+
+	<!-- KC_Teruzuki -->
+	<KC_Teruzuki.firstName>照月</KC_Teruzuki.firstName>
+	<KC_Teruzuki.nickName>照月</KC_Teruzuki.nickName>
+	<KC_Teruzuki.lastName>驱逐舰</KC_Teruzuki.lastName>
+
+	<!-- KC_Hatsuzuki -->
+	<KC_Hatsuzuki.firstName>初月</KC_Hatsuzuki.firstName>
+	<KC_Hatsuzuki.nickName>初月</KC_Hatsuzuki.nickName>
+	<KC_Hatsuzuki.lastName>驱逐舰</KC_Hatsuzuki.lastName>
+
+	<!-- KC_Ayanami -->
+	<KC_Ayanami.firstName>绫波</KC_Ayanami.firstName>
+	<KC_Ayanami.nickName>绫波</KC_Ayanami.nickName>
+	<KC_Ayanami.lastName>驱逐舰</KC_Ayanami.lastName>
+
+	<!-- KC_Fubuki -->
+	<KC_Fubuki.firstName>吹雪</KC_Fubuki.firstName>
+	<KC_Fubuki.nickName>吹雪</KC_Fubuki.nickName>
+	<KC_Fubuki.lastName>驱逐舰</KC_Fubuki.lastName>
+
+	<!-- KC_Murakumo -->
+	<KC_Murakumo.firstName>丛云</KC_Murakumo.firstName>
+	<KC_Murakumo.nickName>丛云</KC_Murakumo.nickName>
+	<KC_Murakumo.lastName>驱逐舰</KC_Murakumo.lastName>
+
+	<!-- KC_Amatsukaze -->
+	<KC_Amatsukaze.firstName>天津风</KC_Amatsukaze.firstName>
+	<KC_Amatsukaze.nickName>天津风</KC_Amatsukaze.nickName>
+	<KC_Amatsukaze.lastName>驱逐舰</KC_Amatsukaze.lastName>
+
+	<!-- KC_Tokitsukaze -->
+	<KC_Tokitsukaze.firstName>时津风</KC_Tokitsukaze.firstName>
+	<KC_Tokitsukaze.nickName>时津风</KC_Tokitsukaze.nickName>
+	<KC_Tokitsukaze.lastName>驱逐舰</KC_Tokitsukaze.lastName>
+
+	<!-- KC_Yukikaze -->
+	<KC_Yukikaze.firstName>雪风</KC_Yukikaze.firstName>
+	<KC_Yukikaze.nickName>雪风</KC_Yukikaze.nickName>
+	<KC_Yukikaze.lastName>驱逐舰</KC_Yukikaze.lastName>
+
+	<!-- KC_Urakaze -->
+	<KC_Urakaze.firstName>浦风</KC_Urakaze.firstName>
+	<KC_Urakaze.nickName>浦风</KC_Urakaze.nickName>
+	<KC_Urakaze.lastName>驱逐舰</KC_Urakaze.lastName>
+
+	<!-- KC_Isokaze -->
+	<KC_Isokaze.firstName>矶风</KC_Isokaze.firstName>
+	<KC_Isokaze.nickName>矶风</KC_Isokaze.nickName>
+	<KC_Isokaze.lastName>驱逐舰</KC_Isokaze.lastName>
+
+	<!-- KC_Hamakaze -->
+	<KC_Hamakaze.firstName>浜风</KC_Hamakaze.firstName>
+	<KC_Hamakaze.nickName>浜风</KC_Hamakaze.nickName>
+	<KC_Hamakaze.lastName>驱逐舰</KC_Hamakaze.lastName>
+
+	<!-- KC_Tanikaze -->
+	<KC_Tanikaze.firstName>谷风</KC_Tanikaze.firstName>
+	<KC_Tanikaze.nickName>谷风</KC_Tanikaze.nickName>
+	<KC_Tanikaze.lastName>驱逐舰</KC_Tanikaze.lastName>
+
+	<!-- KC_Kamikaze --> 
+	<KC_Kamikaze.firstName>神风</KC_Kamikaze.firstName>
+	<KC_Kamikaze.nickName>神风</KC_Kamikaze.nickName>
+	<KC_Kamikaze.lastName>驱逐舰</KC_Kamikaze.lastName>
+
+	<!-- KC_Asakaze -->
+	<KC_Asakaze.firstName>朝风</KC_Asakaze.firstName>
+	<KC_Asakaze.nickName>朝风</KC_Asakaze.nickName>
+	<KC_Asakaze.lastName>驱逐舰</KC_Asakaze.lastName>
+
+	<!-- KC_Harukaze -->
+	<KC_Harukaze.firstName>春风</KC_Harukaze.firstName>
+	<KC_Harukaze.nickName>春风</KC_Harukaze.nickName>
+	<KC_Harukaze.lastName>驱逐舰</KC_Harukaze.lastName>
+
+	<!-- KC_Matsukaze -->
+	<KC_Matsukaze.firstName>松风</KC_Matsukaze.firstName>
+	<KC_Matsukaze.nickName>松风</KC_Matsukaze.nickName>
+	<KC_Matsukaze.lastName>驱逐舰</KC_Matsukaze.lastName>
+
+	<!-- KC_Shimakaze -->
+	<KC_Shimakaze.firstName>岛风</KC_Shimakaze.firstName>
+	<KC_Shimakaze.nickName>岛风</KC_Shimakaze.nickName>
+	<KC_Shimakaze.lastName>驱逐舰</KC_Shimakaze.lastName>
+
+	<!-- KC_Shiratsuyu --> 
+	<KC_Shiratsuyu.firstName>白露</KC_Shiratsuyu.firstName>
+	<KC_Shiratsuyu.nickName>白露</KC_Shiratsuyu.nickName>
+	<KC_Shiratsuyu.lastName>驱逐舰</KC_Shiratsuyu.lastName>
+
+	<!-- KC_Harusame -->
+	<KC_Harusame.firstName>春雨</KC_Harusame.firstName>
+	<KC_Harusame.nickName>春雨</KC_Harusame.nickName>
+	<KC_Harusame.lastName>驱逐舰</KC_Harusame.lastName>
+
+	<!-- KC_Yudachi -->
+	<KC_Yudachi.firstName>夕立</KC_Yudachi.firstName>
+	<KC_Yudachi.nickName>夕立</KC_Yudachi.nickName>
+	<KC_Yudachi.lastName>驱逐舰</KC_Yudachi.lastName>
+
+	<!-- KC_Shigure -->
+	<KC_Shigure.firstName>时雨</KC_Shigure.firstName>
+	<KC_Shigure.nickName>时雨</KC_Shigure.nickName>
+	<KC_Shigure.lastName>驱逐舰</KC_Shigure.lastName>
+
+	<!-- KC_Murasame -->
+	<KC_Murasame.firstName>村雨</KC_Murasame.firstName>
+	<KC_Murasame.nickName>村雨</KC_Murasame.nickName>
+	<KC_Murasame.lastName>驱逐舰</KC_Murasame.lastName>
+
+	<!-- KC_ZOne -->
+	<KC_ZOne.firstName>Z1</KC_ZOne.firstName>
+	<KC_ZOne.nickName>Z1</KC_ZOne.nickName>
+	<KC_ZOne.lastName>驱逐舰</KC_ZOne.lastName>
+
+	<!-- KC_ZThree -->
+	<KC_ZThree.firstName>Z3</KC_ZThree.firstName>
+	<KC_ZThree.nickName>Z3</KC_ZThree.nickName>
+	<KC_ZThree.lastName>驱逐舰</KC_ZThree.lastName>
+
+</LanguageData>

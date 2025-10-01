@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>
+          Defs/TraderKindDef[
+          defName="Orbital_Empire" or
+          defName="Empire_Caravan_TraderGeneral" or
+          defName="Orbital_Exotic" or
+          defName="Caravan_Outlander_Exotic"
+          ]/stockGenerators</xpath>
+        <value>
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>KC_DevMat</thingDef>
+            <countRange>1~2</countRange>
+          </li>
+        </value>        
+      </li>
+
+    </operations>
+  </Operation>
+</Patch>

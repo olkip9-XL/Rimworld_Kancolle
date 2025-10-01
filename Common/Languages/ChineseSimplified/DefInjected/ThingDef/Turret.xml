@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Gun_25mmSingleAATurret.label>九六式25mm单装高射机炮炮塔</Gun_25mmSingleAATurret.label>
+  <Gun_25mmSingleAATurret.description>九六式25mm单装高射机炮炮塔</Gun_25mmSingleAATurret.description>
+
+  <Gun_25mmDoubleAATurret.label>九六式25mm双联装高射机炮炮塔</Gun_25mmDoubleAATurret.label>
+  <Gun_25mmDoubleAATurret.description>九六式25mm双联高射机炮炮塔</Gun_25mmDoubleAATurret.description>
+
+  <Gun_25mmTribleAATurret.label>九六式25mm三联装高射机炮炮塔</Gun_25mmTribleAATurret.label>
+  <Gun_25mmTribleAATurret.description>九六式25mm三联高射机炮炮塔</Gun_25mmTribleAATurret.description>
+
+</LanguageData>

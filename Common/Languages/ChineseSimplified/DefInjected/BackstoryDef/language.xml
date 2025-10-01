@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!--==================childhoods==========================-->
+  <KC_AverageKanmusume.title>普通舰娘</KC_AverageKanmusume.title>
+  <KC_AverageKanmusume.titleShort>舰娘</KC_AverageKanmusume.titleShort>
+  <KC_AverageKanmusume.description>{PAWN_nameDef}是一名舰娘。</KC_AverageKanmusume.description>
+  
+  <!--==================adulthoods==========================-->
+
+  <!--DD-->
+  <KC_Destroyer.title>驱逐舰</KC_Destroyer.title>
+  <KC_Destroyer.titleShort>驱逐舰</KC_Destroyer.titleShort>
+  <KC_Destroyer.description>{PAWN_nameDef}的舰级是驱逐舰，她们是舰队中用途最广泛的舰舰种。她们主要的职责是舰队护卫和反潜，并承担一定的防空任务。她们也会装备鱼雷并对敌方主力舰队发起突袭。</KC_Destroyer.description>
+  
+  
+  
+  
+</LanguageData>

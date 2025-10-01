@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BaseWeaponTurret" Name="25mmAAGunTurretBase" Abstract="true">
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <graphicData>
+      <texPath>Things/Weapon/25mmTripleAutocannonMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.84</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.36</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="25mmAAGunTurretBase">
+    <defName>Gun_25mmSingleAATurret</defName>
+    <label>25mm single</label>
+    <description>25mm single</description>
+    <statBases>
+      <Mass>2.4</Mass>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>HE_ShellA</defaultProjectile>
+        <range>35</range>
+        <soundCast>SoundsTripleAutocannonMount</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <defaultCooldownTime>1.6</defaultCooldownTime>
+        <burstShotCount>15</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="25mmAAGunTurretBase">
+    <defName>Gun_25mmDoubleAATurret</defName>
+    <label>25mm double</label>
+    <description>25mm double</description>
+    <statBases>
+      <Mass>2.6</Mass>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>HE_ShellA</defaultProjectile>
+        <range>35</range>
+        <soundCast>SoundsTripleAutocannonMount</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <defaultCooldownTime>2</defaultCooldownTime>
+        <burstShotCount>30</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="25mmAAGunTurretBase">
+    <defName>Gun_25mmTribleAATurret</defName>
+    <label>25mm Trible</label>
+    <description>25mm Trible</description>
+    <statBases>
+      <Mass>2.8</Mass>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>HE_ShellA</defaultProjectile>
+        <range>35</range>
+        <soundCast>SoundsTripleAutocannonMount</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <defaultCooldownTime>2.5</defaultCooldownTime>
+        <burstShotCount>45</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+</Defs>
